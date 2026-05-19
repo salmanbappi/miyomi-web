@@ -947,6 +947,7 @@ export interface DonationGoal {
   targetAmount: number;
   currentAmount: number;
   currency: string;
+  autoCalc?: boolean;
 }
 
 export interface PaymentMethodDetails {

@@ -50,16 +50,16 @@ export function useDonations(): UseDonationsReturn {
       let goal: DonationGoal = DEFAULT_GOAL;
       let methods: PaymentMethod[] = [];
       let transparency: TransparencyItem[] = [];
+      let currencies: { code: string; rate: number }[] = [];
       let showAmounts = true;
       let lastUpdated = '';
 
       let jsonFallbackUsed = false;
       try {
-        // 1. Fetch settings from Supabase (always)
         const { data: settings, error: settingsError } = await supabase
           .from('donation_settings')
           .select('*');
-          
+
         if (settingsError) throw settingsError;
 
         if (settings) {
@@ -72,16 +72,16 @@ export function useDonations(): UseDonationsReturn {
               showAmounts = val.showDonationAmounts ?? true;
               lastUpdated = val.transparencyLastUpdated ?? '';
             }
+            if (s.key === 'currencies' && Array.isArray(val)) currencies = val;
           }
         }
 
-        // 2. Fetch donations from Supabase (always)
         const { data: rows, error: rowsError } = await supabase
           .from('donations')
           .select('*')
           .eq('is_public', true)
           .order('created_at', { ascending: false });
-          
+
         if (rowsError) throw rowsError;
 
         if (rows && rows.length > 0) {
@@ -97,27 +97,32 @@ export function useDonations(): UseDonationsReturn {
             paymentMethod: r.payment_method || '',
           }));
         }
+
+        if (goal.autoCalc && donators.length > 0) {
+          goal = {
+            ...goal, currentAmount: donators.reduce((sum, d) => {
+              const rate = currencies.find(c => c.code === d.currency)?.rate || 1;
+              return sum + (d.amount / rate);
+            }, 0)
+          };
+          goal.currentAmount = Math.round(goal.currentAmount * 100) / 100;
+        }
       } catch (e) {
-        // Supabase unavailable — use full JSON fallback
         console.warn("Using JSON fallback for donations due to Supabase error", e);
         jsonFallbackUsed = true;
       }
 
-      // 3. JSON fallback if Supabase failed or returned zero donators
       if (jsonFallbackUsed || donators.length === 0) {
         try {
-          // Try standard donations.json first
           let r = await fetch('/donations.json');
           if (!r.ok) {
-            // Fallback to old donators.json if donations.json doesn't exist
             r = await fetch('/donators.json');
           }
-          
+
           if (r.ok) {
             const json = await r.json();
-            
+
             if (jsonFallbackUsed) {
-              // Only override everything if Supabase completely failed
               if (json.goal) goal = json.goal;
               if (json.paymentMethods) methods = json.paymentMethods;
               if (json.transparencyItems) transparency = json.transparencyItems;
@@ -126,7 +131,7 @@ export function useDonations(): UseDonationsReturn {
                 lastUpdated = json.display.transparencyLastUpdated ?? '';
               }
             }
-            
+
             if (json.donators) {
               donators = json.donators
                 .filter((d: any) => d.isPublic !== false)

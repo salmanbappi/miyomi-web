@@ -84,7 +84,7 @@ export function AdminDonationsPage() {
     if (data) {
       for (const s of data) {
         const v = s.value as any;
-        if (s.key === 'goal' && v) setGoal(v);
+        if (s.key === 'goal' && v) { setGoal(v); setAutoCalcGoal(!!v.autoCalc); }
         if (s.key === 'payment_methods' && Array.isArray(v)) setMethods(v);
         if (s.key === 'transparency' && Array.isArray(v)) setTransparency(v);
         if (s.key === 'display' && v) setDisplay(v);
@@ -320,9 +320,9 @@ export function AdminDonationsPage() {
             </div>
             <div className="flex justify-end pt-2">
               <AdminButton onClick={() => {
-                const saveGoal = autoCalcGoal ? { ...goal, currentAmount: Math.round(calcUsdTotal() * 100) / 100 } : goal;
+                const saveGoal = { ...goal, autoCalc: autoCalcGoal, currentAmount: autoCalcGoal ? Math.round(calcUsdTotal() * 100) / 100 : goal.currentAmount };
                 saveSetting('goal', saveGoal);
-                if (autoCalcGoal) setGoal(saveGoal);
+                setGoal(saveGoal);
               }} disabled={savingS}>{savingS ? 'Saving…' : 'Save Goal'}</AdminButton>
             </div>
           </div>

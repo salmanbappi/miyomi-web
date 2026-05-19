@@ -1,10 +1,11 @@
 {
   "goal": {
     "title": "Keep Miyomi Online - Infrastructure Fund",
+    "autoCalc": true,
     "currency": "USD",
     "description": "Helps cover hosting, domain, and infrastructure costs so Miyomi can stay online and continue growing.",
     "targetAmount": 320,
-    "currentAmount": 0
+    "currentAmount": 256.93
   },
   "paymentMethods": [
     {
@@ -339,90 +340,36 @@
   },
   "donators": [
     {
-      "name": "Ali a*******",
-      "amount": 8.75,
-      "currency": "USD",
-      "message": "Greeeeaat work",
-      "date": "2026-05-19",
-      "isPublic": true,
-      "showAmount": true
-    },
-    {
-      "name": "Eero K****",
-      "amount": 11.45,
-      "currency": "USD",
+      "name": "Lynn toh",
+      "amount": 866,
+      "currency": "PHP",
       "message": "",
       "date": "2026-05-18",
       "isPublic": true,
       "showAmount": true
     },
     {
-      "name": "Michael W*****",
-      "amount": 32.42,
-      "currency": "USD",
-      "message": "",
-      "date": "",
-      "isPublic": true,
-      "showAmount": true
-    },
-    {
-      "name": "Rolly M*****",
-      "amount": 4.54,
-      "currency": "USD",
+      "name": "Ivan echarte",
+      "amount": 312.92,
+      "currency": "PHP",
       "message": "",
       "date": "2026-05-18",
       "isPublic": true,
       "showAmount": true
     },
     {
-      "name": "Solomon C****",
-      "amount": 6.89,
-      "currency": "USD",
+      "name": "grazchella Vicente",
+      "amount": 2807.94,
+      "currency": "PHP",
       "message": "",
       "date": "2026-05-18",
       "isPublic": true,
       "showAmount": true
     },
     {
-      "name": "Jose D****",
-      "amount": 2.37,
-      "currency": "USD",
-      "message": "",
-      "date": "2026-05-18",
-      "isPublic": true,
-      "showAmount": true
-    },
-    {
-      "name": "Darius E****",
-      "amount": 9.55,
-      "currency": "USD",
-      "message": "",
-      "date": "",
-      "isPublic": true,
-      "showAmount": true
-    },
-    {
-      "name": "Anna D****",
-      "amount": 19.16,
-      "currency": "USD",
-      "message": "",
-      "date": "2026-05-18",
-      "isPublic": true,
-      "showAmount": true
-    },
-    {
-      "name": "Carlos m****",
-      "amount": 13.88,
-      "currency": "USD",
-      "message": "",
-      "date": "2026-05-18",
-      "isPublic": true,
-      "showAmount": true
-    },
-    {
-      "name": "Heathberr ",
-      "amount": 23.9,
-      "currency": "USD",
+      "name": "Anthony Louis balladares",
+      "amount": 1181,
+      "currency": "PHP",
       "message": "",
       "date": "2026-05-18",
       "isPublic": true,
@@ -430,100 +377,307 @@
     },
     {
       "name": "DeAndres",
-      "amount": 4.79,
-      "currency": "USD",
+      "amount": 295.29,
+      "currency": "PHP",
       "message": "",
       "date": "2026-05-18",
       "isPublic": true,
       "showAmount": true
     },
     {
-      "name": "Anonymous 286",
-      "amount": 0.41,
-      "currency": "USD",
-      "message": "Miyomi support",
+      "name": "Heathberr",
+      "amount": 1476.43,
+      "currency": "PHP",
+      "message": "",
       "date": "2026-05-18",
       "isPublic": true,
       "showAmount": true
     },
     {
-      "name": "Anonymous 626",
-      "amount": 0.41,
-      "currency": "USD",
-      "message": "Miyomi support",
+      "name": "Carlos mog",
+      "amount": 855.86,
+      "currency": "PHP",
+      "message": "",
       "date": "2026-05-18",
       "isPublic": true,
       "showAmount": true
     },
     {
-      "name": "Anonymous 269",
-      "amount": 0.16,
-      "currency": "USD",
-      "message": "Miyomi support",
+      "name": "Anna domi",
+      "amount": 1181.15,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Darius Ellis",
+      "amount": 590.57,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Jose isaias Duran ek",
+      "amount": 146,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Solomon chin",
+      "amount": 425,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "rolly Marquez",
+      "amount": 280,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Michael Williams",
+      "amount": 1999,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Eero kukko",
+      "amount": 706,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #1",
+      "amount": 250,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #2",
+      "amount": 50,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #3",
+      "amount": 61,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #4",
+      "amount": 150,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #5",
+      "amount": 200,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #6",
+      "amount": 50,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #7",
+      "amount": 200,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #8",
+      "amount": 164.34,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #9",
+      "amount": 10,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #10",
+      "amount": 130,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #11",
+      "amount": 100,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #12",
+      "amount": 150,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #13",
+      "amount": 65,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #14",
+      "amount": 200,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #15",
+      "amount": 50,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #16",
+      "amount": 200,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #17",
+      "amount": 5,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Ali alromaithi",
+      "amount": 540.07,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #262",
+      "amount": 50,
+      "currency": "BDT",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #286",
+      "amount": 50,
+      "currency": "BDT",
+      "message": "",
       "date": "2026-05-18",
       "isPublic": true,
       "showAmount": true
     },
     {
       "name": "Mohtasim",
-      "amount": 0.81,
-      "currency": "USD",
-      "message": "Thank you for your heard work.",
-      "date": "2026-05-17",
+      "amount": 100,
+      "currency": "BDT",
+      "message": "Thank you for your work Miyomi.",
+      "date": "2026-05-18",
       "isPublic": true,
       "showAmount": true
     },
     {
-      "name": "carigo p****",
-      "amount": 2.11,
-      "currency": "USD",
-      "message": "🫡",
-      "date": "2026-05-17",
+      "name": "Anonymous #626",
+      "amount": 50,
+      "currency": "BDT",
+      "message": "",
+      "date": "2026-05-18",
       "isPublic": true,
       "showAmount": true
     },
     {
-      "name": "Anthony L*****",
-      "amount": 19.17,
-      "currency": "USD",
-      "message": "Keep up the great work",
-      "date": "2026-05-17",
+      "name": "Anonymous #269",
+      "amount": 20,
+      "currency": "BDT",
+      "message": "",
+      "date": "2026-05-18",
       "isPublic": true,
       "showAmount": true
     },
     {
-      "name": "Vincente",
-      "amount": 45.54,
-      "currency": "USD",
-      "message": "For miyomi",
-      "date": "2026-05-17",
-      "isPublic": true,
-      "showAmount": true
-    },
-    {
-      "name": "Ivan",
-      "amount": 5.08,
-      "currency": "USD",
-      "message": "Thank you for your work",
-      "date": "2026-05-17",
-      "isPublic": true,
-      "showAmount": true
-    },
-    {
-      "name": "Jp Navales",
-      "amount": 1.62,
-      "currency": "USD",
-      "message": "Supporting miyomi",
-      "date": "2026-05-17",
-      "isPublic": true,
-      "showAmount": true
-    },
-    {
-      "name": "avalanchelynn",
-      "amount": 14.05,
-      "currency": "PHP",
-      "message": "Thank you for the work",
-      "date": "2026-05-17",
+      "name": "Anonymous #057",
+      "amount": 20,
+      "currency": "BDT",
+      "message": "",
+      "date": "2026-05-18",
       "isPublic": true,
       "showAmount": true
     }
