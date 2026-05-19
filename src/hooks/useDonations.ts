@@ -12,6 +12,7 @@ export interface Donator {
   isPublic: boolean;
   showAmount: boolean;
   paymentMethod?: string;
+  usdAmount?: number;
 }
 
 interface UseDonationsReturn {
@@ -85,17 +86,23 @@ export function useDonations(): UseDonationsReturn {
         if (rowsError) throw rowsError;
 
         if (rows && rows.length > 0) {
-          donators = rows.map((r: any) => ({
-            id: r.id,
-            name: r.donor_name,
-            amount: Number(r.amount),
-            currency: r.currency || 'USD',
-            message: r.message || '',
-            date: r.date || '',
-            isPublic: r.is_public,
-            showAmount: r.show_amount,
-            paymentMethod: r.payment_method || '',
-          }));
+          donators = rows.map((r: any) => {
+            const amt = Number(r.amount);
+            const cur = r.currency || 'USD';
+            const rate = currencies.find(c => c.code === cur)?.rate || 1;
+            return {
+              id: r.id,
+              name: r.donor_name,
+              amount: amt,
+              currency: cur,
+              message: r.message || '',
+              date: r.date || '',
+              isPublic: r.is_public,
+              showAmount: r.show_amount,
+              paymentMethod: r.payment_method || '',
+              usdAmount: Math.round((amt / rate) * 100) / 100,
+            };
+          });
         }
 
         if (goal.autoCalc && donators.length > 0) {

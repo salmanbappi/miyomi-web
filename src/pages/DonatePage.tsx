@@ -158,7 +158,7 @@ const DonatorCard: React.FC<DonatorCardProps> = ({ donator, index, showDonationA
           <div className="flex items-center gap-1.5 flex-wrap mt-1">
             {showDonationAmounts && donator.showAmount && (
               <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-[var(--chip-bg)] text-[var(--brand)] font-medium leading-none">
-                ${donator.amount}
+                ${donator.usdAmount ?? donator.amount}
               </span>
             )}
             {donator.paymentMethod && (

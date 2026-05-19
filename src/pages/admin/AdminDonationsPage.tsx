@@ -215,14 +215,18 @@ export function AdminDonationsPage() {
           ) : (
             <div className="space-y-2">
               {filtered.map(d => (
-                <div key={d.id} className="rounded-xl border p-4 flex items-center gap-4" style={{ background: 'var(--bg-surface)', borderColor: 'var(--divider)' }}>
-                  <div className="w-9 h-9 rounded-full bg-gradient-to-br from-[var(--brand)] to-[var(--chart-3)] flex items-center justify-center text-white text-xs font-bold flex-shrink-0">
+                <div key={d.id} className="rounded-xl border p-3 flex items-center gap-3" style={{ background: 'var(--bg-surface)', borderColor: 'var(--divider)' }}>
+                  <div className="w-8 h-8 rounded-full flex items-center justify-center text-[10px] font-bold flex-shrink-0" style={{ background: 'var(--chip-bg)', color: 'var(--brand)' }}>
                     {d.donor_name.slice(0, 2).toUpperCase()}
                   </div>
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2 flex-wrap">
                       <span className="font-medium text-sm" style={{ color: 'var(--text-primary)' }}>{d.donor_name}</span>
-                      <span className="px-2 py-0.5 rounded-full text-xs font-medium" style={{ background: 'var(--chip-bg)', color: 'var(--brand)' }}>${d.amount}</span>
+                      <span className="px-2 py-0.5 rounded-full text-xs font-medium" style={{ background: 'var(--chip-bg)', color: 'var(--brand)' }}>
+                        {(currencies.find(c => c.code === d.currency)?.symbol || d.currency) + d.amount}
+                        {d.currency !== 'USD' && (() => { const rate = currencies.find(c => c.code === d.currency)?.rate || 1; return ` ≈ $${(Number(d.amount) / rate).toFixed(2)}`; })()}
+                      </span>
+                      {d.payment_method && <span className="px-1.5 py-0.5 rounded-full text-[10px] border" style={{ borderColor: 'var(--divider)', color: 'var(--text-secondary)' }}>{d.payment_method}</span>}
                       <StatusBadge active={d.is_public} />
                     </div>
                     {d.message && <p className="text-xs mt-0.5 truncate" style={{ color: 'var(--text-secondary)' }}>{d.message}</p>}
