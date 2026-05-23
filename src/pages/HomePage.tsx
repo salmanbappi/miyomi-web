@@ -8,6 +8,7 @@ import { useSeasonalAsset } from '../hooks/useSeasonalAsset';
 import { dataService } from '../services/dataService';
 import type { ExtensionData, GuideCategoryData } from '../types/data';
 import { DiscordIcon } from '../components/DiscordIcon';
+import { TelegramIcon } from '../components/TelegramIcon';
 
 interface HomePageProps {
   onNavigate?: (path: string) => void;
@@ -62,9 +63,10 @@ export function HomePage({ onNavigate }: HomePageProps) {
   const avatarImage = useSeasonalAsset('homeAvatar', '/polic.png');
 
   const socialLinks = [
-    { icon: <Twitter className="w-5 h-5" />, label: 'Twitter', link: 'https://x.com/iitachiyomi', color: '#333' },
+    // { icon: <Twitter className="w-5 h-5" />, label: 'Twitter', link: 'https://x.com/iitachiyomi', color: '#333' },
     { icon: <DiscordIcon className="w-5 h-5" />, label: 'Discord', link: 'https://discord.gg/hfYtH9hrRm', color: '#5865F2' },
-    { icon: <Facebook className="w-5 h-5" />, label: 'Facebook', link: 'https://facebook.com/iitachiyomi', color: '#1877F2' },
+    { icon: <TelegramIcon className="w-5 h-5" />, label: 'Telegram', link: 'https://t.me/iitachiyomi', color: '#1877F2' },
+    // { icon: <Facebook className="w-5 h-5" />, label: 'Facebook', link: 'https://facebook.com/iitachiyomi', color: '#1877F2' },
   ];
 
   const formatCount = (value: number) => {

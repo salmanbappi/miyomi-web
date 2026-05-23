@@ -64,9 +64,11 @@ const openSourceCredits: CreditItem[] = [
 ];
 
 const communityLinks: LinkItem[] = [
-  { label: 'Facebook', href: 'https://www.facebook.com/iitachiyomi' },
+  // { label: 'Facebook', href: 'https://www.facebook.com/iitachiyomi' },
   { label: 'YouTube', href: 'https://www.youtube.com/@iitachiyomi' },
-  { label: 'Instagram', href: 'https://www.instagram.com/iitachiyomi/' },
+  // { label: 'Instagram', href: 'https://www.instagram.com/iitachiyomi/' },
+  { label: 'Discord', href: 'https://discord.gg/hfYtH9hrRm' },
+  { label: 'Telegram', href: 'https://t.me/iitachiyomi' },
   { label: 'GitHub', href: 'https://github.com/tas33n/miyomi' },
 ];
 

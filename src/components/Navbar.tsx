@@ -14,6 +14,8 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from './ui/dropdown-menu';
+import { TelegramIcon } from './TelegramIcon';
+import { DiscordIcon } from './DiscordIcon';
 
 interface NavbarProps {
   onNavigate?: (path: string) => void;
@@ -88,9 +90,11 @@ export function Navbar({ onNavigate }: NavbarProps) {
   ];
 
   const socialLinks = [
-    { icon: <Facebook className="w-5 h-5" />, label: 'Facebook', link: 'https://www.facebook.com/iitachiyomi' },
+    // { icon: <Facebook className="w-5 h-5" />, label: 'Facebook', link: 'https://www.facebook.com/iitachiyomi' },
+    { icon: <DiscordIcon className="w-5 h-5" />, label: 'Discord', link: 'https://discord.gg/hfYtH9hrRm', color: '#5865F2' },
+    { icon: <TelegramIcon className="w-5 h-5" />, label: 'Telegram', link: 'https://t.me/iitachiyomi', color: '#1877F2' },
     { icon: <Youtube className="w-5 h-5" />, label: 'YouTube', link: 'https://www.youtube.com/@iitachiyomi' },
-    { icon: <Instagram className="w-5 h-5" />, label: 'Instagram', link: 'https://www.instagram.com/iitachiyomi/' },
+    // { icon: <Instagram className="w-5 h-5" />, label: 'Instagram', link: 'https://www.instagram.com/iitachiyomi/' },
     { icon: <Github className="w-5 h-5" />, label: 'GitHub', link: 'https://github.com/tas33n/miyomi' },
   ];
 
