@@ -497,7 +497,7 @@ export function AdminExtensionFormPage() {
                         </div>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
-                            <AdminFormField label="Source URL">
+                            <AdminFormField label="Website URL">
                                 <AdminInput value={form.source_url} onChange={e => setForm(f => ({ ...f, source_url: e.target.value }))} placeholder="https://..." />
                             </AdminFormField>
                             <AdminFormField label="Social / Community Links">

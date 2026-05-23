@@ -37,7 +37,7 @@ export function useExtensions(): { extensions: ExtensionData[]; loading: boolean
             lastUpdated: ext.last_updated || ext.updated_at,
             overview: ext.description || undefined,
             github: ext.repo_url,
-            website: ext.website_url,
+            website: ext.source_url || ext.website_url,
             keywords: [],
             tutorials: [],
             likes: ext.likes_count || 0,

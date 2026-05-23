@@ -45,7 +45,7 @@ export function useExtension(extensionId: string): { extension: ExtensionData | 
                         lastUpdated: data.updated_at || data.created_at,
                         overview: data.description || undefined,
                         github: data.repo_url,
-                        website: data.website_url,
+                        website: data.source_url || data.website_url,
                         keywords: data.tags || [],
                         tutorials: Array.isArray(data.tutorials) ? data.tutorials : [],
                         installUrls: (() => {
