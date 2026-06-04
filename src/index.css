@@ -162,9 +162,22 @@ html {
   * {
     @apply border-border;
     outline-color: var(--ring);
+  }
+
+  body, 
+  header, 
+  nav, 
+  footer, 
+  div.card, 
+  button, 
+  a, 
+  input, 
+  select, 
+  textarea,
+  .theme-transition {
     transition-property: background-color, border-color, color;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 300ms;
+    transition-duration: 200ms;
   }
 
   body {
@@ -225,10 +238,14 @@ html {
 
 .animate-float {
   animation: float 6s ease-in-out infinite;
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
 }
 
 .animate-bounce-slow {
   animation: bounce-slow 3s ease-in-out infinite;
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
 }
 
 .animate-fade-in {
@@ -365,6 +382,15 @@ html {
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid var(--glass-border);
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
+}
+
+.backdrop-blur-xl, 
+.backdrop-blur-md,
+.backdrop-blur-sm {
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
 }
 
 .text-shadow-sm {

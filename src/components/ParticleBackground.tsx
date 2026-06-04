@@ -185,8 +185,6 @@ export function ParticleBackground({ theme = 'dark' }: ParticleBackgroundProps) 
 
       ctx.globalAlpha = h.opacity;
       ctx.fillStyle = h.color;
-      ctx.shadowBlur = size;
-      ctx.shadowColor = h.color;
 
       // Heart path
       ctx.beginPath();
@@ -205,7 +203,6 @@ export function ParticleBackground({ theme = 'dark' }: ParticleBackgroundProps) 
       );
       ctx.fill();
 
-      ctx.shadowBlur = 0;
       ctx.restore();
     };
 
@@ -223,8 +220,6 @@ export function ParticleBackground({ theme = 'dark' }: ParticleBackgroundProps) 
 
       const color = effectiveTheme === 'dark' ? '#38BDF8' : '#0ea5e9';
       ctx.fillStyle = color;
-      ctx.shadowBlur = s.size * 3;
-      ctx.shadowColor = color;
 
       // 4-point star
       ctx.beginPath();
@@ -239,7 +234,6 @@ export function ParticleBackground({ theme = 'dark' }: ParticleBackgroundProps) 
       ctx.closePath();
       ctx.fill();
 
-      ctx.shadowBlur = 0;
       ctx.restore();
     };
 
