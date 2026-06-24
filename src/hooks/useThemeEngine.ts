@@ -222,6 +222,8 @@ export function useThemeEngine(colorMode: 'light' | 'dark' = 'light'): ThemeEngi
     useEffect(() => { fetchThemes(); }, [fetchThemes]);
 
     useEffect(() => {
+        if (!supabase) return;
+
         const channel = supabase
             .channel('theme-engine-changes')
             .on(
@@ -296,6 +298,7 @@ export function useThemeEngine(colorMode: 'light' | 'dark' = 'light'): ThemeEngi
     }, [activeTheme, themes, colorMode]);
 
     const activateTheme = useCallback(async (themeId: string) => {
+        if (!supabase) return;
         setIsLoading(true);
         await supabase.from('themes').update({ is_active: false }).eq('is_active', true);
         await supabase.from('themes').update({ is_active: true }).eq('id', themeId);
@@ -304,6 +307,7 @@ export function useThemeEngine(colorMode: 'light' | 'dark' = 'light'): ThemeEngi
     }, [fetchThemes]);
 
     const deactivateTheme = useCallback(async (themeId: string) => {
+        if (!supabase) return;
         setIsLoading(true);
         await supabase.from('themes').update({ is_active: false }).eq('id', themeId);
         await fetchThemes();

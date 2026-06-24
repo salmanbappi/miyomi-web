@@ -101,89 +101,119 @@ function toFAQData(row: Tables<'faqs'>): FAQData {
 
 export const supabaseDataService = {
   async getApps(): Promise<AppData[]> {
-    const { data, error } = await supabase
-      .from('apps')
-      .select('*')
-      .eq('status', 'approved')
-      .order('name');
-    if (error) {
-      console.error('Failed to fetch apps from Supabase:', error);
+    if (!supabase) return [];
+    try {
+      const { data, error } = await supabase
+        .from('apps')
+        .select('*')
+        .eq('status', 'approved')
+        .order('name');
+      if (error) {
+        console.error('Failed to fetch apps from Supabase:', error);
+        return [];
+      }
+      return (data || []).map(toAppData);
+    } catch (err) {
+      console.error('Failed to fetch apps from Supabase:', err);
       return [];
     }
-    return (data || []).map(toAppData);
   },
 
   async getExtensions(): Promise<ExtensionData[]> {
-    const { data, error } = await supabase
-      .from('extensions')
-      .select('*')
-      .eq('status', 'approved')
-      .order('name');
-    if (error) {
-      console.error('Failed to fetch extensions from Supabase:', error);
+    if (!supabase) return [];
+    try {
+      const { data, error } = await supabase
+        .from('extensions')
+        .select('*')
+        .eq('status', 'approved')
+        .order('name');
+      if (error) {
+        console.error('Failed to fetch extensions from Supabase:', error);
+        return [];
+      }
+      return (data || []).map(toExtensionData);
+    } catch (err) {
+      console.error('Failed to fetch extensions from Supabase:', err);
       return [];
     }
-    return (data || []).map(toExtensionData);
   },
 
   async getFAQs(): Promise<FAQData[]> {
-    const { data, error } = await supabase
-      .from('faqs')
-      .select('*')
-      .order('order_index');
-    if (error) {
-      console.error('Failed to fetch FAQs from Supabase:', error);
+    if (!supabase) return [];
+    try {
+      const { data, error } = await supabase
+        .from('faqs')
+        .select('*')
+        .order('order_index');
+      if (error) {
+        console.error('Failed to fetch FAQs from Supabase:', error);
+        return [];
+      }
+      return (data || []).map(toFAQData);
+    } catch (err) {
+      console.error('Failed to fetch FAQs from Supabase:', err);
       return [];
     }
-    return (data || []).map(toFAQData);
   },
 
   async getGuideCategories(): Promise<GuideCategoryData[]> {
-    const { data, error } = await supabase
-      .from('guides')
-      .select('*')
-      .neq('status', 'draft')
-      .order('category, title');
-    if (error) {
-      console.error('Failed to fetch guides from Supabase:', error);
+    if (!supabase) return [];
+    try {
+      const { data, error } = await supabase
+        .from('guides')
+        .select('*')
+        .neq('status', 'draft')
+        .order('category, title');
+      if (error) {
+        console.error('Failed to fetch guides from Supabase:', error);
+        return [];
+      }
+
+      const categoryMap = new Map<string, GuideTopicData[]>();
+      for (const row of data || []) {
+        const cat = row.category || 'uncategorized';
+        if (!categoryMap.has(cat)) categoryMap.set(cat, []);
+        categoryMap.get(cat)!.push({
+          id: row.id,
+          title: row.title,
+          slug: row.slug || row.id,
+          summary: row.description || undefined,
+          keywords: (row.tags || []) as any,
+          relatedAppIds: (row.related_apps || []) as any,
+          relatedExtensionIds: (row.related_extensions || []) as any,
+        });
+      }
+      return Array.from(categoryMap.entries()).map(([id, guides]) => ({
+        id,
+        title: id.charAt(0).toUpperCase() + id.slice(1),
+        description: '',
+        color: '#6366F1',
+        icon: 'book' as const,
+        guides,
+      }));
+    } catch (err) {
+      console.error('Failed to fetch guides from Supabase:', err);
       return [];
     }
-
-    const categoryMap = new Map<string, GuideTopicData[]>();
-    for (const row of data || []) {
-      const cat = row.category || 'uncategorized';
-      if (!categoryMap.has(cat)) categoryMap.set(cat, []);
-      categoryMap.get(cat)!.push({
-        id: row.id,
-        title: row.title,
-        slug: row.slug || row.id,
-        summary: row.description || undefined,
-        keywords: (row.tags || []) as any,
-        relatedAppIds: (row.related_apps || []) as any,
-        relatedExtensionIds: (row.related_extensions || []) as any,
-      });
-    }
-    return Array.from(categoryMap.entries()).map(([id, guides]) => ({
-      id,
-      title: id.charAt(0).toUpperCase() + id.slice(1),
-      description: '',
-      color: '#6366F1',
-      icon: 'book' as const,
-      guides,
-    }));
   },
 
   async getGuideBySlug(slug: string): Promise<GuideData | null> {
-    const { data, error } = await supabase
-      .from('guides')
-      .select('*')
-      .eq('slug', slug)
-      .single();
+    if (!supabase) return null;
+    try {
+      const { data, error } = await supabase
+        .from('guides')
+        .select('*')
+        .eq('slug', slug)
+        .single();
 
-    if (error) {
-      console.error('Failed to fetch guide by slug:', error);
+      if (error) {
+        console.error('Failed to fetch guide by slug:', error);
+        return null;
+      }
+      return toGuideData(data);
+    } catch (err) {
+      console.error('Failed to fetch guide by slug:', err);
       return null;
     }
-    return toGuideData(data);
   },
 };

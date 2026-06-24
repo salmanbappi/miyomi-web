@@ -8,13 +8,24 @@ export function useNotices() {
 
   useEffect(() => {
     async function fetchNotices() {
-      const { data } = await supabase
-        .from('notices')
-        .select('*')
-        .eq('active', true)
-        .order('priority', { ascending: false });
-      setNotices(data || []);
-      setLoading(false);
+      if (!supabase) {
+        setNotices([]);
+        setLoading(false);
+        return;
+      }
+      try {
+        const { data } = await supabase
+          .from('notices')
+          .select('*')
+          .eq('active', true)
+          .order('priority', { ascending: false });
+        setNotices(data || []);
+      } catch (err) {
+        console.error('Failed to fetch notices:', err);
+        setNotices([]);
+      } finally {
+        setLoading(false);
+      }
     }
     fetchNotices();
   }, []);
