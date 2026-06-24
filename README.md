@@ -1,11 +1,11 @@
-# <img src="https://raw.githubusercontent.com/tas33n/Miyomi/main/public/icons/icon-192.png" width="35px"> Miyomi v3.0 
+# <img src="https://raw.githubusercontent.com/salmanbappi/miyomi-web/main/public/icons/icon-192.png" width="35px"> Miyomi v3.0 
 
 A modern, community-run website for discovering **manga**, **anime**, and **light novel** apps, extensions, guides, and other resources — curated from open-source communities to make them easier to find for everyone.
 
 > Miyomi is an **independent, fan-run** information hub.  
 > We do **not** host content. We only index publicly available links and resources.
 
-🌐 **Live:** *(update with your deployed URL)*
+🌐 **Live:** https://salmanbappi.github.io/miyomi-web/
 
 Kindly consider giving the repository a ⭐ star. It helps the community keep improving Miyomi.  
 You can also contribute by submitting new apps/extensions/resources or helping us keep information up-to-date.
@@ -59,7 +59,7 @@ Create an issue with:
 - Links (GitHub, website, download, repo, etc.)
 - Why it should be listed / what should be changed
 
-👉 Issues: https://github.com/tas33n/miyomi/issues
+👉 Issues: https://github.com/salmanbappi/miyomi-web/issues
 
 ### Option 3: Contribute Code / UI / Docs
 If you want to help as a developer, see:
