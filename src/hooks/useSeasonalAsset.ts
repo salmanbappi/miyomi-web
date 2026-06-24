@@ -21,9 +21,16 @@ export function useSeasonalAsset(
     }
 
     return useMemo(() => {
+        let assetPath = defaultAsset;
         if (hasContext && themeAssets && themeAssets[assetKey]) {
-            return themeAssets[assetKey]!;
+            assetPath = themeAssets[assetKey]!;
         }
-        return defaultAsset;
+
+        if (assetPath.startsWith('/')) {
+            const base = import.meta.env.BASE_URL;
+            const cleanBase = base.endsWith('/') ? base.slice(0, -1) : base;
+            return cleanBase + assetPath;
+        }
+        return assetPath;
     }, [hasContext, themeAssets, assetKey, defaultAsset]);
 }

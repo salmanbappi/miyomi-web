@@ -14,7 +14,7 @@ export function NotFoundPage() {
     <div className="flex flex-col items-center justify-center min-h-[calc(100vh-160px)] text-center px-4 py-12">
       <div className="relative w-64 h-64 mb-8">
         <img
-          src="/404.png"
+          src={`${import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL.slice(0, -1) : import.meta.env.BASE_URL}/404.png`}
           alt="Page Not Found Mascot"
           className="relative z-10 w-full h-full object-contain drop-shadow-2xl animate-bounce-slow"
         />
