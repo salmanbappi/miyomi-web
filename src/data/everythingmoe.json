@@ -285,6 +285,59 @@
     "tip": "Highly recommended client/reader layout with quick response times."
   },
   {
+    "name": "Anibd.app",
+    "url": "https://anibd.app/",
+    "description": "Highly-rated index for Anibd.app, cataloged in EverythingMoe under the Streaming Platforms section.",
+    "category": "Anime",
+    "subCategory": "Streaming Platforms",
+    "color": "#38BDF8",
+    "tags": [
+      "scraper",
+      "hard-sub",
+      "dub friendly",
+      "soft-sub"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "1080p Soft-subbed",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: scraper, hard-sub, dub friendly, soft-sub, streaming. Ideal for users looking for reliable streaming platforms.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "AniSnatch",
+    "url": "https://anisnatch.top/home",
+    "description": "Highly-rated index for AniSnatch, cataloged in EverythingMoe under the Streaming Platforms section.",
+    "category": "Anime",
+    "subCategory": "Streaming Platforms",
+    "color": "#38BDF8",
+    "tags": [
+      "self-host",
+      "hard-sub",
+      "streaming"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "1080p Hard-subbed",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: self-host, hard-sub, streaming. Ideal for users looking for reliable streaming platforms.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "aniwaves.ru",
+    "url": "https://aniwaves.ru/home",
+    "description": "Highly-rated index for aniwaves.ru, cataloged in EverythingMoe under the Streaming Platforms section.",
+    "category": "Anime",
+    "subCategory": "Streaming Platforms",
+    "color": "#38BDF8",
+    "tags": [
+      "streaming"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "1080p Full HD",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: streaming. Ideal for users looking for reliable streaming platforms.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
     "name": "AnimeKhor",
     "url": "https://animekhor.org/",
     "description": "Highly-rated index for AnimeKhor, cataloged in EverythingMoe under the Chinese Animation (Donghua) section.",
@@ -356,6 +409,22 @@
     "name": "LManime",
     "url": "https://lmanime.com/",
     "description": "Highly-rated index for LManime, cataloged in EverythingMoe under the Chinese Animation (Donghua) section.",
+    "category": "Anime",
+    "subCategory": "Chinese Animation (Donghua)",
+    "color": "#38BDF8",
+    "tags": [
+      "chinese"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "1080p Full HD",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: chinese. Ideal for users looking for reliable chinese animation (donghua).",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Anime Cube",
+    "url": "https://animecube.live/",
+    "description": "Highly-rated index for Anime Cube, cataloged in EverythingMoe under the Chinese Animation (Donghua) section.",
     "category": "Anime",
     "subCategory": "Chinese Animation (Donghua)",
     "color": "#38BDF8",
@@ -638,6 +707,93 @@
     "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
   },
   {
+    "name": "KaliScan",
+    "url": "https://kaliscan.io/home",
+    "description": "Highly-rated index for KaliScan, cataloged in EverythingMoe under the Reading Portals section.",
+    "category": "Manga",
+    "subCategory": "Reading Portals",
+    "color": "#F43F5E",
+    "tags": [
+      "official rips",
+      "reading"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Official Digital Rips",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: official rips, reading. Ideal for users looking for reliable reading portals.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "MangaHub",
+    "url": "https://mangahub.io/",
+    "description": "Highly-rated index for MangaHub, cataloged in EverythingMoe under the Reading Portals section.",
+    "category": "Manga",
+    "subCategory": "Reading Portals",
+    "color": "#F43F5E",
+    "tags": [
+      "mostly scans",
+      "modern interface",
+      "scanlator hub",
+      "reading"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "High-Res Scans",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: mostly scans, modern interface, scanlator hub, reading. Ideal for users looking for reliable reading portals.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Scans.gg",
+    "url": "https://scans.gg/",
+    "description": "Highly-rated index for Scans.gg, cataloged in EverythingMoe under the Reading Portals section.",
+    "category": "Manga",
+    "subCategory": "Reading Portals",
+    "color": "#F43F5E",
+    "tags": [
+      "mostly scans",
+      "scanlator hub",
+      "reading"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "High-Res Scans",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: mostly scans, scanlator hub, reading. Ideal for users looking for reliable reading portals.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Dynasty Reader",
+    "url": "https://dynasty-scans.com/",
+    "description": "Highly-rated index for Dynasty Reader, cataloged in EverythingMoe under the Reading Portals section.",
+    "category": "Manga",
+    "subCategory": "Reading Portals",
+    "color": "#F43F5E",
+    "tags": [
+      "official rips",
+      "reading"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Official Digital Rips",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: official rips, reading. Ideal for users looking for reliable reading portals.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "LikeManga",
+    "url": "https://likemanga.ink/",
+    "description": "Highly-rated index for LikeManga, cataloged in EverythingMoe under the Reading Portals section.",
+    "category": "Manga",
+    "subCategory": "Reading Portals",
+    "color": "#F43F5E",
+    "tags": [
+      "reading"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "High-Res Scans",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: reading. Ideal for users looking for reliable reading portals.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
     "name": "Kagane",
     "url": "https://kagane.to/",
     "description": "Highly-rated index for Kagane, cataloged in EverythingMoe under the Manhwa Reading section.",
@@ -671,6 +827,56 @@
     "videoQuality": "Official Digital Rips",
     "detailedReview": "Community rated platform on EverythingMoe. It features tags: official rips, manhwa. Ideal for users looking for reliable manhwa reading.",
     "tip": "Highly recommended client/reader layout with quick response times."
+  },
+  {
+    "name": "Manhwaz",
+    "url": "https://manhwaz.com/",
+    "description": "Highly-rated index for Manhwaz, cataloged in EverythingMoe under the Manhwa Reading section.",
+    "category": "Manga",
+    "subCategory": "Manhwa Reading",
+    "color": "#F43F5E",
+    "tags": [
+      "mostly scans",
+      "manhwa"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "High-Res Scans",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: mostly scans, manhwa. Ideal for users looking for reliable manhwa reading.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "MangaGG",
+    "url": "https://mangagg.com/",
+    "description": "Highly-rated index for MangaGG, cataloged in EverythingMoe under the Manhwa Reading section.",
+    "category": "Manga",
+    "subCategory": "Manhwa Reading",
+    "color": "#F43F5E",
+    "tags": [
+      "mostly scans",
+      "manhwa"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "High-Res Scans",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: mostly scans, manhwa. Ideal for users looking for reliable manhwa reading.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Toonily",
+    "url": "https://toonily.com/",
+    "description": "Highly-rated index for Toonily, cataloged in EverythingMoe under the Manhwa Reading section.",
+    "category": "Manga",
+    "subCategory": "Manhwa Reading",
+    "color": "#F43F5E",
+    "tags": [
+      "manhwa"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "High-Res Scans",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: manhwa. Ideal for users looking for reliable manhwa reading.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
   },
   {
     "name": "NovelFire",
@@ -817,6 +1023,278 @@
     "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
   },
   {
+    "name": "FreeWebNovel",
+    "url": "https://freewebnovel.com/",
+    "description": "Highly-rated index for FreeWebNovel, cataloged in EverythingMoe under the Reading & EPUBs section.",
+    "category": "Light Novels",
+    "subCategory": "Reading & EPUBs",
+    "color": "#A855F7",
+    "tags": [
+      "reading"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Text EPUB / Web Reader",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: reading. Ideal for users looking for reliable reading & epubs.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Ranobes",
+    "url": "https://ranobes.net/",
+    "description": "Highly-rated index for Ranobes, cataloged in EverythingMoe under the Reading & EPUBs section.",
+    "category": "Light Novels",
+    "subCategory": "Reading & EPUBs",
+    "color": "#A855F7",
+    "tags": [
+      "reading"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Text EPUB / Web Reader",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: reading. Ideal for users looking for reliable reading & epubs.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Cyrisia",
+    "url": "https://cyrisia.com/",
+    "description": "Highly-rated index for Cyrisia, cataloged in EverythingMoe under the Reading & EPUBs section.",
+    "category": "Light Novels",
+    "subCategory": "Reading & EPUBs",
+    "color": "#A855F7",
+    "tags": [
+      "reading"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Text EPUB / Web Reader",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: reading. Ideal for users looking for reliable reading & epubs.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Baka-Tsuki",
+    "url": "https://www.baka-tsuki.org/project/index.php?title=Main_Page",
+    "description": "Highly-rated index for Baka-Tsuki, cataloged in EverythingMoe under the Reading & EPUBs section.",
+    "category": "Light Novels",
+    "subCategory": "Reading & EPUBs",
+    "color": "#A855F7",
+    "tags": [
+      "reading"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Text EPUB / Web Reader",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: reading. Ideal for users looking for reliable reading & epubs.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "NovelCool",
+    "url": "https://www.novelcool.com/category/popular.html",
+    "description": "Highly-rated index for NovelCool, cataloged in EverythingMoe under the Reading & EPUBs section.",
+    "category": "Light Novels",
+    "subCategory": "Reading & EPUBs",
+    "color": "#A855F7",
+    "tags": [
+      "reading"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Text EPUB / Web Reader",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: reading. Ideal for users looking for reliable reading & epubs.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "LnCrawler",
+    "url": "https://lncrawler.monster/",
+    "description": "Highly-rated index for LnCrawler, cataloged in EverythingMoe under the Reading & EPUBs section.",
+    "category": "Light Novels",
+    "subCategory": "Reading & EPUBs",
+    "color": "#A855F7",
+    "tags": [
+      "reading"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Text EPUB / Web Reader",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: reading. Ideal for users looking for reliable reading & epubs.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Novel Bin",
+    "url": "https://novelbin.com/",
+    "description": "Highly-rated index for Novel Bin, cataloged in EverythingMoe under the Reading & EPUBs section.",
+    "category": "Light Novels",
+    "subCategory": "Reading & EPUBs",
+    "color": "#A855F7",
+    "tags": [
+      "reading"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Text EPUB / Web Reader",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: reading. Ideal for users looking for reliable reading & epubs.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Novelhall",
+    "url": "https://www.novelhall.com/",
+    "description": "Highly-rated index for Novelhall, cataloged in EverythingMoe under the Reading & EPUBs section.",
+    "category": "Light Novels",
+    "subCategory": "Reading & EPUBs",
+    "color": "#A855F7",
+    "tags": [
+      "reading"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Text EPUB / Web Reader",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: reading. Ideal for users looking for reliable reading & epubs.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "MVLEMPYR",
+    "url": "https://www.mvlempyr.com/",
+    "description": "Highly-rated index for MVLEMPYR, cataloged in EverythingMoe under the Reading & EPUBs section.",
+    "category": "Light Novels",
+    "subCategory": "Reading & EPUBs",
+    "color": "#A855F7",
+    "tags": [
+      "reading"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Text EPUB / Web Reader",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: reading. Ideal for users looking for reliable reading & epubs.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "FUCKNOVELPIA",
+    "url": "https://fucknovelpia.com/",
+    "description": "Highly-rated index for FUCKNOVELPIA, cataloged in EverythingMoe under the Reading & EPUBs section.",
+    "category": "Light Novels",
+    "subCategory": "Reading & EPUBs",
+    "color": "#A855F7",
+    "tags": [
+      "reading"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Text EPUB / Web Reader",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: reading. Ideal for users looking for reliable reading & epubs.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Anna's Archive",
+    "url": "https://annas-archive.gl",
+    "description": "Highly-rated index for Anna's Archive, cataloged in EverythingMoe under the Reading & EPUBs section.",
+    "category": "Light Novels",
+    "subCategory": "Reading & EPUBs",
+    "color": "#A855F7",
+    "tags": [
+      "reading"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Text EPUB / Web Reader",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: reading. Ideal for users looking for reliable reading & epubs.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "server.elscione",
+    "url": "https://server.elscione.com/",
+    "description": "Highly-rated index for server.elscione, cataloged in EverythingMoe under the Reading & EPUBs section.",
+    "category": "Light Novels",
+    "subCategory": "Reading & EPUBs",
+    "color": "#A855F7",
+    "tags": [
+      "reading"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Text EPUB / Web Reader",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: reading. Ideal for users looking for reliable reading & epubs.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Foxaholic",
+    "url": "https://www.foxaholic.com/",
+    "description": "Highly-rated index for Foxaholic, cataloged in EverythingMoe under the Reading & EPUBs section.",
+    "category": "Light Novels",
+    "subCategory": "Reading & EPUBs",
+    "color": "#A855F7",
+    "tags": [
+      "reading"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Text EPUB / Web Reader",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: reading. Ideal for users looking for reliable reading & epubs.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "WTR-LAB",
+    "url": "https://wtr-lab.com/",
+    "description": "Highly-rated index for WTR-LAB, cataloged in EverythingMoe under the Reading & EPUBs section.",
+    "category": "Light Novels",
+    "subCategory": "Reading & EPUBs",
+    "color": "#A855F7",
+    "tags": [
+      "reading"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Text EPUB / Web Reader",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: reading. Ideal for users looking for reliable reading & epubs.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Kureha One forum",
+    "url": "http://www.vn-meido.com/k1/index.php?board=17.0",
+    "description": "Highly-rated index for Kureha One forum, cataloged in EverythingMoe under the Reading & EPUBs section.",
+    "category": "Light Novels",
+    "subCategory": "Reading & EPUBs",
+    "color": "#A855F7",
+    "tags": [
+      "reading"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Text EPUB / Web Reader",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: reading. Ideal for users looking for reliable reading & epubs.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "jnovels",
+    "url": "https://jnovels.com/",
+    "description": "Highly-rated index for jnovels, cataloged in EverythingMoe under the Reading & EPUBs section.",
+    "category": "Light Novels",
+    "subCategory": "Reading & EPUBs",
+    "color": "#A855F7",
+    "tags": [
+      "reading"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Text EPUB / Web Reader",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: reading. Ideal for users looking for reliable reading & epubs.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Armaell's Library",
+    "url": "https://armaell-library.net/",
+    "description": "Highly-rated index for Armaell's Library, cataloged in EverythingMoe under the Reading & EPUBs section.",
+    "category": "Light Novels",
+    "subCategory": "Reading & EPUBs",
+    "color": "#A855F7",
+    "tags": [
+      "reading"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Text EPUB / Web Reader",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: reading. Ideal for users looking for reliable reading & epubs.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
     "name": "Kisskh",
     "url": "https://kisskh.co/",
     "description": "Highly-rated index for Kisskh, cataloged in EverythingMoe under the Asian Drama Streaming section.",
@@ -945,6 +1423,182 @@
     "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
   },
   {
+    "name": "Toku555",
+    "url": "https://toku555.com/",
+    "description": "Highly-rated index for Toku555, cataloged in EverythingMoe under the Asian Drama Streaming section.",
+    "category": "Japan & Immersion",
+    "subCategory": "Asian Drama Streaming",
+    "color": "#F97316",
+    "tags": [
+      "asian"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Web Index Link",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: asian. Ideal for users looking for reliable asian drama streaming.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Anime-Loads",
+    "url": "https://www.anime-loads.org/asialive",
+    "description": "Highly-rated index for Anime-Loads, cataloged in EverythingMoe under the Asian Drama Streaming section.",
+    "category": "Japan & Immersion",
+    "subCategory": "Asian Drama Streaming",
+    "color": "#F97316",
+    "tags": [
+      "asian"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Web Index Link",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: asian. Ideal for users looking for reliable asian drama streaming.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "kisskhweb.com",
+    "url": "https://www.kisskhweb.com/",
+    "description": "Highly-rated index for kisskhweb.com, cataloged in EverythingMoe under the Asian Drama Streaming section.",
+    "category": "Japan & Immersion",
+    "subCategory": "Asian Drama Streaming",
+    "color": "#F97316",
+    "tags": [
+      "asian"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Web Index Link",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: asian. Ideal for users looking for reliable asian drama streaming.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "OnlyKDrama",
+    "url": "https://onlykdrama.top/",
+    "description": "Highly-rated index for OnlyKDrama, cataloged in EverythingMoe under the Asian Drama Streaming section.",
+    "category": "Japan & Immersion",
+    "subCategory": "Asian Drama Streaming",
+    "color": "#F97316",
+    "tags": [
+      "asian"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Web Index Link",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: asian. Ideal for users looking for reliable asian drama streaming.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Dramaday",
+    "url": "https://dramaday.me/",
+    "description": "Highly-rated index for Dramaday, cataloged in EverythingMoe under the Asian Drama Streaming section.",
+    "category": "Japan & Immersion",
+    "subCategory": "Asian Drama Streaming",
+    "color": "#F97316",
+    "tags": [
+      "asian"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Web Index Link",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: asian. Ideal for users looking for reliable asian drama streaming.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "MkvDrama.net",
+    "url": "https://mkvdrama.net/",
+    "description": "Highly-rated index for MkvDrama.net, cataloged in EverythingMoe under the Asian Drama Streaming section.",
+    "category": "Japan & Immersion",
+    "subCategory": "Asian Drama Streaming",
+    "color": "#F97316",
+    "tags": [
+      "asian"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Web Index Link",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: asian. Ideal for users looking for reliable asian drama streaming.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Myasiantv",
+    "url": "https://myasiantv.rest",
+    "description": "Highly-rated index for Myasiantv, cataloged in EverythingMoe under the Asian Drama Streaming section.",
+    "category": "Japan & Immersion",
+    "subCategory": "Asian Drama Streaming",
+    "color": "#F97316",
+    "tags": [
+      "asian"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Web Index Link",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: asian. Ideal for users looking for reliable asian drama streaming.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Asiaflix",
+    "url": "https://asiaflix.net/home",
+    "description": "Highly-rated index for Asiaflix, cataloged in EverythingMoe under the Asian Drama Streaming section.",
+    "category": "Japan & Immersion",
+    "subCategory": "Asian Drama Streaming",
+    "color": "#F97316",
+    "tags": [
+      "asian"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Web Index Link",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: asian. Ideal for users looking for reliable asian drama streaming.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "KissOppa",
+    "url": "https://freshdrama.net/",
+    "description": "Highly-rated index for KissOppa, cataloged in EverythingMoe under the Asian Drama Streaming section.",
+    "category": "Japan & Immersion",
+    "subCategory": "Asian Drama Streaming",
+    "color": "#F97316",
+    "tags": [
+      "asian"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Web Index Link",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: asian. Ideal for users looking for reliable asian drama streaming.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Kisskh.club",
+    "url": "https://kisskh.club/",
+    "description": "Highly-rated index for Kisskh.club, cataloged in EverythingMoe under the Asian Drama Streaming section.",
+    "category": "Japan & Immersion",
+    "subCategory": "Asian Drama Streaming",
+    "color": "#F97316",
+    "tags": [
+      "asian"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Web Index Link",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: asian. Ideal for users looking for reliable asian drama streaming.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Kissasiantv",
+    "url": "https://kissasian.com.lv/",
+    "description": "Highly-rated index for Kissasiantv, cataloged in EverythingMoe under the Asian Drama Streaming section.",
+    "category": "Japan & Immersion",
+    "subCategory": "Asian Drama Streaming",
+    "color": "#F97316",
+    "tags": [
+      "asian"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Web Index Link",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: asian. Ideal for users looking for reliable asian drama streaming.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
     "name": "Visual Novel DB",
     "url": "https://vndb.org/",
     "description": "Highly-rated index for Visual Novel DB, cataloged in EverythingMoe under the Visual Novel Databases section.",
@@ -959,6 +1613,278 @@
     "videoQuality": "Tracking APIs & DB",
     "detailedReview": "Community rated platform on EverythingMoe. It features tags: visual. Ideal for users looking for reliable visual novel databases.",
     "tip": "Highly recommended client/reader layout with quick response times."
+  },
+  {
+    "name": "AndroidVisualNovels",
+    "url": "https://avn2pointzero.wordpress.com/",
+    "description": "Highly-rated index for AndroidVisualNovels, cataloged in EverythingMoe under the Visual Novel Databases section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Visual Novel Databases",
+    "color": "#3B82F6",
+    "tags": [
+      "visual"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: visual. Ideal for users looking for reliable visual novel databases.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "r/Roms Megathread",
+    "url": "https://r-roms.github.io/",
+    "description": "Highly-rated index for r/Roms Megathread, cataloged in EverythingMoe under the Visual Novel Databases section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Visual Novel Databases",
+    "color": "#3B82F6",
+    "tags": [
+      "visual"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: visual. Ideal for users looking for reliable visual novel databases.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Erista",
+    "url": "https://erista.me/",
+    "description": "Highly-rated index for Erista, cataloged in EverythingMoe under the Visual Novel Databases section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Visual Novel Databases",
+    "color": "#3B82F6",
+    "tags": [
+      "visual"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: visual. Ideal for users looking for reliable visual novel databases.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Deso Novel",
+    "url": "https://desonovel.vnlx.org/",
+    "description": "Highly-rated index for Deso Novel, cataloged in EverythingMoe under the Visual Novel Databases section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Visual Novel Databases",
+    "color": "#3B82F6",
+    "tags": [
+      "visual"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: visual. Ideal for users looking for reliable visual novel databases.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "DoujinStyle",
+    "url": "https://doujinstyle.com/",
+    "description": "Highly-rated index for DoujinStyle, cataloged in EverythingMoe under the Visual Novel Databases section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Visual Novel Databases",
+    "color": "#3B82F6",
+    "tags": [
+      "visual"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: visual. Ideal for users looking for reliable visual novel databases.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "CPG Repacks",
+    "url": "https://cpgrepacks.site/",
+    "description": "Highly-rated index for CPG Repacks, cataloged in EverythingMoe under the Visual Novel Databases section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Visual Novel Databases",
+    "color": "#3B82F6",
+    "tags": [
+      "visual"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: visual. Ideal for users looking for reliable visual novel databases.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "yinghu.asia",
+    "url": "https://gal.yinghu.asia/",
+    "description": "Highly-rated index for yinghu.asia, cataloged in EverythingMoe under the Visual Novel Databases section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Visual Novel Databases",
+    "color": "#3B82F6",
+    "tags": [
+      "visual"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: visual. Ideal for users looking for reliable visual novel databases.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "BetterRepack",
+    "url": "https://dl.betterrepack.com/",
+    "description": "Highly-rated index for BetterRepack, cataloged in EverythingMoe under the Visual Novel Databases section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Visual Novel Databases",
+    "color": "#3B82F6",
+    "tags": [
+      "visual"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: visual. Ideal for users looking for reliable visual novel databases.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "JP Compendium",
+    "url": "https://japanesepccompendium.blogspot.com/",
+    "description": "Highly-rated index for JP Compendium, cataloged in EverythingMoe under the Visual Novel Databases section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Visual Novel Databases",
+    "color": "#3B82F6",
+    "tags": [
+      "visual"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: visual. Ideal for users looking for reliable visual novel databases.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Craneanime",
+    "url": "https://blog.craneanime.xyz/",
+    "description": "Highly-rated index for Craneanime, cataloged in EverythingMoe under the Visual Novel Databases section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Visual Novel Databases",
+    "color": "#3B82F6",
+    "tags": [
+      "visual"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: visual. Ideal for users looking for reliable visual novel databases.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "VisualDise",
+    "url": "https://visualdise.blogspot.com/",
+    "description": "Highly-rated index for VisualDise, cataloged in EverythingMoe under the Visual Novel Databases section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Visual Novel Databases",
+    "color": "#3B82F6",
+    "tags": [
+      "visual"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: visual. Ideal for users looking for reliable visual novel databases.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "QooApp",
+    "url": "https://www.qoo-app.com/en",
+    "description": "Highly-rated index for QooApp, cataloged in EverythingMoe under the Visual Novel Databases section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Visual Novel Databases",
+    "color": "#3B82F6",
+    "tags": [
+      "visual"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: visual. Ideal for users looking for reliable visual novel databases.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "G123",
+    "url": "https://g123.jp/",
+    "description": "Highly-rated index for G123, cataloged in EverythingMoe under the Visual Novel Databases section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Visual Novel Databases",
+    "color": "#3B82F6",
+    "tags": [
+      "visual"
+    ],
+    "adExperience": "Licensed (Sub/Ad-supported)",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: visual. Ideal for users looking for reliable visual novel databases.",
+    "tip": "Highly recommended client/reader layout with quick response times."
+  },
+  {
+    "name": "RetroGameTalk",
+    "url": "https://retrogametalk.com/",
+    "description": "Highly-rated index for RetroGameTalk, cataloged in EverythingMoe under the Visual Novel Databases section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Visual Novel Databases",
+    "color": "#3B82F6",
+    "tags": [
+      "visual"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: visual. Ideal for users looking for reliable visual novel databases.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Axekin",
+    "url": "https://www.axekin.com/",
+    "description": "Highly-rated index for Axekin, cataloged in EverythingMoe under the Visual Novel Databases section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Visual Novel Databases",
+    "color": "#3B82F6",
+    "tags": [
+      "visual"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: visual. Ideal for users looking for reliable visual novel databases.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "EpicRoms",
+    "url": "https://epicroms.net/",
+    "description": "Highly-rated index for EpicRoms, cataloged in EverythingMoe under the Visual Novel Databases section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Visual Novel Databases",
+    "color": "#3B82F6",
+    "tags": [
+      "visual"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: visual. Ideal for users looking for reliable visual novel databases.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Romslab",
+    "url": "https://romslab.com/",
+    "description": "Highly-rated index for Romslab, cataloged in EverythingMoe under the Visual Novel Databases section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Visual Novel Databases",
+    "color": "#3B82F6",
+    "tags": [
+      "visual"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: visual. Ideal for users looking for reliable visual novel databases.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
   },
   {
     "name": "Mihon",
@@ -1124,6 +2050,282 @@
     "signupRequired": "No Signup Required",
     "videoQuality": "Tracking APIs & DB",
     "detailedReview": "Community rated platform on EverythingMoe. It features tags: android, anime, mobile. Ideal for users looking for reliable mobile apps.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "CloudStream",
+    "url": "https://github.com/recloudstream/cloudstream",
+    "description": "Highly-rated index for CloudStream, cataloged in EverythingMoe under the Mobile Apps section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Mobile Apps",
+    "color": "#3B82F6",
+    "tags": [
+      "android",
+      "windows",
+      "ios",
+      "macos"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: android, windows, ios, macos, linux, anime, mobile. Ideal for users looking for reliable mobile apps.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Hayase",
+    "url": "https://hayase.watch/",
+    "description": "Highly-rated index for Hayase, cataloged in EverythingMoe under the Mobile Apps section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Mobile Apps",
+    "color": "#3B82F6",
+    "tags": [
+      "android",
+      "light novel",
+      "mobile"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: android, light novel, mobile. Ideal for users looking for reliable mobile apps.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "LNReader",
+    "url": "https://www.lnreader.app/",
+    "description": "Highly-rated index for LNReader, cataloged in EverythingMoe under the Mobile Apps section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Mobile Apps",
+    "color": "#3B82F6",
+    "tags": [
+      "android",
+      "light novel",
+      "mobile"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: android, light novel, mobile. Ideal for users looking for reliable mobile apps.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "QuickNovel",
+    "url": "https://github.com/LagradOst/QuickNovel",
+    "description": "Highly-rated index for QuickNovel, cataloged in EverythingMoe under the Mobile Apps section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Mobile Apps",
+    "color": "#3B82F6",
+    "tags": [
+      "android",
+      "manga",
+      "mobile"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: android, manga, mobile. Ideal for users looking for reliable mobile apps.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Yokai",
+    "url": "https://github.com/null2264/yokai",
+    "description": "Highly-rated index for Yokai, cataloged in EverythingMoe under the Mobile Apps section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Mobile Apps",
+    "color": "#3B82F6",
+    "tags": [
+      "windows",
+      "macos",
+      "ios",
+      "linux"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: windows, macos, ios, linux, anime, manga, novel, mobile. Ideal for users looking for reliable mobile apps.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Manatan",
+    "url": "https://manatan.com/",
+    "description": "Highly-rated index for Manatan, cataloged in EverythingMoe under the Mobile Apps section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Mobile Apps",
+    "color": "#3B82F6",
+    "tags": [
+      "android",
+      "light novel",
+      "mobile"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: android, light novel, mobile. Ideal for users looking for reliable mobile apps.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Tsundoku",
+    "url": "https://tsundoku-otaku.github.io/",
+    "description": "Highly-rated index for Tsundoku, cataloged in EverythingMoe under the Mobile Apps section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Mobile Apps",
+    "color": "#3B82F6",
+    "tags": [
+      "android",
+      "windows",
+      "anime",
+      "manga"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: android, windows, anime, manga, light novel, mobile. Ideal for users looking for reliable mobile apps.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Miru",
+    "url": "https://miru.js.org/en/",
+    "description": "Highly-rated index for Miru, cataloged in EverythingMoe under the Mobile Apps section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Mobile Apps",
+    "color": "#3B82F6",
+    "tags": [
+      "windows",
+      "macos",
+      "linux",
+      "manga"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: windows, macos, linux, manga, mobile. Ideal for users looking for reliable mobile apps.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Suwayomi",
+    "url": "https://github.com/Suwayomi/Suwayomi-Server",
+    "description": "Highly-rated index for Suwayomi, cataloged in EverythingMoe under the Mobile Apps section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Mobile Apps",
+    "color": "#3B82F6",
+    "tags": [
+      "windows",
+      "macos",
+      "linux",
+      "manga"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: windows, macos, linux, manga, mobile. Ideal for users looking for reliable mobile apps.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Houdoku",
+    "url": "https://houdoku.org/",
+    "description": "Highly-rated index for Houdoku, cataloged in EverythingMoe under the Mobile Apps section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Mobile Apps",
+    "color": "#3B82F6",
+    "tags": [
+      "windows",
+      "manga",
+      "mobile"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: windows, manga, mobile. Ideal for users looking for reliable mobile apps.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "FMD2",
+    "url": "https://github.com/dazedcat19/FMD2",
+    "description": "Highly-rated index for FMD2, cataloged in EverythingMoe under the Mobile Apps section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Mobile Apps",
+    "color": "#3B82F6",
+    "tags": [
+      "windows",
+      "macos",
+      "linux",
+      "anime"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: windows, macos, linux, anime, manga, mobile. Ideal for users looking for reliable mobile apps.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Hakuneko",
+    "url": "https://hakuneko.download/",
+    "description": "Highly-rated index for Hakuneko, cataloged in EverythingMoe under the Mobile Apps section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Mobile Apps",
+    "color": "#3B82F6",
+    "tags": [
+      "android",
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: android, windows, macos, linux, anime, mobile. Ideal for users looking for reliable mobile apps.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Shiru",
+    "url": "https://github.com/RockinChaos/Shiru",
+    "description": "Highly-rated index for Shiru, cataloged in EverythingMoe under the Mobile Apps section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Mobile Apps",
+    "color": "#3B82F6",
+    "tags": [
+      "android",
+      "manga",
+      "mobile"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: android, manga, mobile. Ideal for users looking for reliable mobile apps.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Neko",
+    "url": "https://github.com/nekomangaorg/Neko",
+    "description": "Highly-rated index for Neko, cataloged in EverythingMoe under the Mobile Apps section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Mobile Apps",
+    "color": "#3B82F6",
+    "tags": [
+      "windows",
+      "linux",
+      "light novel",
+      "mobile"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: windows, linux, light novel, mobile. Ideal for users looking for reliable mobile apps.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Lightnovel Crawler",
+    "url": "https://github.com/dipu-bd/lightnovel-crawler",
+    "description": "Highly-rated index for Lightnovel Crawler, cataloged in EverythingMoe under the Mobile Apps section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Mobile Apps",
+    "color": "#3B82F6",
+    "tags": [
+      "mobile"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: mobile. Ideal for users looking for reliable mobile apps.",
     "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
   },
   {
@@ -1312,6 +2514,207 @@
     "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
   },
   {
+    "name": "MangaZip",
+    "url": "https://manga-zip.is/post",
+    "description": "Highly-rated index for MangaZip, cataloged in EverythingMoe under the BitTorrent Trackers section.",
+    "category": "Torrenting",
+    "subCategory": "BitTorrent Trackers",
+    "color": "#22C55E",
+    "tags": [
+      "manga",
+      "novel",
+      "idol",
+      "ddl"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "BitTorrent Peer Sharing",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: manga, novel, idol, ddl, raws, bittorrent. Ideal for users looking for reliable bittorrent trackers.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "DLRaw",
+    "url": "https://dlraw.to/",
+    "description": "Highly-rated index for DLRaw, cataloged in EverythingMoe under the BitTorrent Trackers section.",
+    "category": "Torrenting",
+    "subCategory": "BitTorrent Trackers",
+    "color": "#22C55E",
+    "tags": [
+      "manga",
+      "novel",
+      "idol",
+      "ddl"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "BitTorrent Peer Sharing",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: manga, novel, idol, ddl, raws, bittorrent. Ideal for users looking for reliable bittorrent trackers.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "DL-Raw",
+    "url": "https://dl-raw.ac/",
+    "description": "Highly-rated index for DL-Raw, cataloged in EverythingMoe under the BitTorrent Trackers section.",
+    "category": "Torrenting",
+    "subCategory": "BitTorrent Trackers",
+    "color": "#22C55E",
+    "tags": [
+      "manga",
+      "novel",
+      "ddl",
+      "raws"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "BitTorrent Peer Sharing",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: manga, novel, ddl, raws, bittorrent. Ideal for users looking for reliable bittorrent trackers.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "DL-Zip",
+    "url": "https://dl-zip.com/",
+    "description": "Highly-rated index for DL-Zip, cataloged in EverythingMoe under the BitTorrent Trackers section.",
+    "category": "Torrenting",
+    "subCategory": "BitTorrent Trackers",
+    "color": "#22C55E",
+    "tags": [
+      "manga",
+      "novel",
+      "ddl",
+      "raws"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "BitTorrent Peer Sharing",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: manga, novel, ddl, raws, bittorrent. Ideal for users looking for reliable bittorrent trackers.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Book Share ZIP",
+    "url": "https://bszip.com/",
+    "description": "Highly-rated index for Book Share ZIP, cataloged in EverythingMoe under the BitTorrent Trackers section.",
+    "category": "Torrenting",
+    "subCategory": "BitTorrent Trackers",
+    "color": "#22C55E",
+    "tags": [
+      "anime",
+      "ddl",
+      "bittorrent"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "BitTorrent Peer Sharing",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: anime, ddl, bittorrent. Ideal for users looking for reliable bittorrent trackers.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "AnimeToki",
+    "url": "https://animetoki.com/",
+    "description": "Highly-rated index for AnimeToki, cataloged in EverythingMoe under the BitTorrent Trackers section.",
+    "category": "Torrenting",
+    "subCategory": "BitTorrent Trackers",
+    "color": "#22C55E",
+    "tags": [
+      "anime",
+      "ddl",
+      "bittorrent"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "BitTorrent Peer Sharing",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: anime, ddl, bittorrent. Ideal for users looking for reliable bittorrent trackers.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "KayoAnime",
+    "url": "https://kayoanime.com/",
+    "description": "Highly-rated index for KayoAnime, cataloged in EverythingMoe under the BitTorrent Trackers section.",
+    "category": "Torrenting",
+    "subCategory": "BitTorrent Trackers",
+    "color": "#22C55E",
+    "tags": [
+      "anime",
+      "ddl",
+      "torrent",
+      "bittorrent"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "BitTorrent Peer Sharing",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: anime, ddl, torrent, bittorrent. Ideal for users looking for reliable bittorrent trackers.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "AV1 EnCodes",
+    "url": "https://av1please.com/",
+    "description": "Highly-rated index for AV1 EnCodes, cataloged in EverythingMoe under the BitTorrent Trackers section.",
+    "category": "Torrenting",
+    "subCategory": "BitTorrent Trackers",
+    "color": "#22C55E",
+    "tags": [
+      "anime",
+      "ddl",
+      "bittorrent"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "BitTorrent Peer Sharing",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: anime, ddl, bittorrent. Ideal for users looking for reliable bittorrent trackers.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Hi10Anime",
+    "url": "https://hi10anime.com",
+    "description": "Highly-rated index for Hi10Anime, cataloged in EverythingMoe under the BitTorrent Trackers section.",
+    "category": "Torrenting",
+    "subCategory": "BitTorrent Trackers",
+    "color": "#22C55E",
+    "tags": [
+      "touhou",
+      "ddl",
+      "bittorrent"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "BitTorrent Peer Sharing",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: touhou, ddl, bittorrent. Ideal for users looking for reliable bittorrent trackers.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Moriya Shrine",
+    "url": "https://moriyashrine.org/",
+    "description": "Highly-rated index for Moriya Shrine, cataloged in EverythingMoe under the BitTorrent Trackers section.",
+    "category": "Torrenting",
+    "subCategory": "BitTorrent Trackers",
+    "color": "#22C55E",
+    "tags": [
+      "manga",
+      "ddl",
+      "bittorrent"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "BitTorrent Peer Sharing",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: manga, ddl, bittorrent. Ideal for users looking for reliable bittorrent trackers.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Panda Backup",
+    "url": "https://panda.chaika.moe/",
+    "description": "Highly-rated index for Panda Backup, cataloged in EverythingMoe under the BitTorrent Trackers section.",
+    "category": "Torrenting",
+    "subCategory": "BitTorrent Trackers",
+    "color": "#22C55E",
+    "tags": [
+      "bittorrent"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "BitTorrent Peer Sharing",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: bittorrent. Ideal for users looking for reliable bittorrent trackers.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
     "name": "Karaoke Mugen",
     "url": "https://kara.moe/",
     "description": "Highly-rated index for Karaoke Mugen, cataloged in EverythingMoe under the Soundtrack Downloads section.",
@@ -1488,6 +2891,150 @@
     "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
   },
   {
+    "name": "OkamimiOST",
+    "url": "https://okamimiost.com/",
+    "description": "Highly-rated index for OkamimiOST, cataloged in EverythingMoe under the Soundtrack Downloads section.",
+    "category": "Music & Audio",
+    "subCategory": "Soundtrack Downloads",
+    "color": "#EC4899",
+    "tags": [
+      "soundtrack"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "FLAC / MP3 Formats",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: soundtrack. Ideal for users looking for reliable soundtrack downloads.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "DoujinStyle",
+    "url": "https://doujinstyle.com/",
+    "description": "Highly-rated index for DoujinStyle, cataloged in EverythingMoe under the Soundtrack Downloads section.",
+    "category": "Music & Audio",
+    "subCategory": "Soundtrack Downloads",
+    "color": "#EC4899",
+    "tags": [
+      "soundtrack"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "FLAC / MP3 Formats",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: soundtrack. Ideal for users looking for reliable soundtrack downloads.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "TLMC",
+    "url": "https://alist.thdisc.tk/",
+    "description": "Highly-rated index for TLMC, cataloged in EverythingMoe under the Soundtrack Downloads section.",
+    "category": "Music & Audio",
+    "subCategory": "Soundtrack Downloads",
+    "color": "#EC4899",
+    "tags": [
+      "soundtrack"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "FLAC / MP3 Formats",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: soundtrack. Ideal for users looking for reliable soundtrack downloads.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Touhou Player",
+    "url": "https://touhou.kuukunen.net/",
+    "description": "Highly-rated index for Touhou Player, cataloged in EverythingMoe under the Soundtrack Downloads section.",
+    "category": "Music & Audio",
+    "subCategory": "Soundtrack Downloads",
+    "color": "#EC4899",
+    "tags": [
+      "soundtrack"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "FLAC / MP3 Formats",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: soundtrack. Ideal for users looking for reliable soundtrack downloads.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "MikuDB",
+    "url": "https://mikudb.moe/",
+    "description": "Highly-rated index for MikuDB, cataloged in EverythingMoe under the Soundtrack Downloads section.",
+    "category": "Music & Audio",
+    "subCategory": "Soundtrack Downloads",
+    "color": "#EC4899",
+    "tags": [
+      "soundtrack"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "FLAC / MP3 Formats",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: soundtrack. Ideal for users looking for reliable soundtrack downloads.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "KHInsider",
+    "url": "https://downloads.khinsider.com/",
+    "description": "Highly-rated index for KHInsider, cataloged in EverythingMoe under the Soundtrack Downloads section.",
+    "category": "Music & Audio",
+    "subCategory": "Soundtrack Downloads",
+    "color": "#EC4899",
+    "tags": [
+      "soundtrack"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "FLAC / MP3 Formats",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: soundtrack. Ideal for users looking for reliable soundtrack downloads.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Sonix's OST",
+    "url": "https://sonixgvn.net/",
+    "description": "Highly-rated index for Sonix's OST, cataloged in EverythingMoe under the Soundtrack Downloads section.",
+    "category": "Music & Audio",
+    "subCategory": "Soundtrack Downloads",
+    "color": "#EC4899",
+    "tags": [
+      "soundtrack"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "FLAC / MP3 Formats",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: soundtrack. Ideal for users looking for reliable soundtrack downloads.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Osanime",
+    "url": "https://osanime.com/",
+    "description": "Highly-rated index for Osanime, cataloged in EverythingMoe under the Soundtrack Downloads section.",
+    "category": "Music & Audio",
+    "subCategory": "Soundtrack Downloads",
+    "color": "#EC4899",
+    "tags": [
+      "soundtrack"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "FLAC / MP3 Formats",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: soundtrack. Ideal for users looking for reliable soundtrack downloads.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Musicdex",
+    "url": "https://musicdex.org/",
+    "description": "Highly-rated index for Musicdex, cataloged in EverythingMoe under the Soundtrack Downloads section.",
+    "category": "Music & Audio",
+    "subCategory": "Soundtrack Downloads",
+    "color": "#EC4899",
+    "tags": [
+      "soundtrack"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "FLAC / MP3 Formats",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: soundtrack. Ideal for users looking for reliable soundtrack downloads.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
     "name": "Livechart",
     "url": "https://www.livechart.me",
     "description": "Highly-rated index for Livechart, cataloged in EverythingMoe under the Schedules & Broadcasts section.",
@@ -1587,6 +3134,22 @@
     "name": "Otaku Calendar",
     "url": "https://otakucalendar.com/",
     "description": "Highly-rated index for Otaku Calendar, cataloged in EverythingMoe under the Schedules & Broadcasts section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Schedules & Broadcasts",
+    "color": "#3B82F6",
+    "tags": [
+      "schedules"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: schedules. Ideal for users looking for reliable schedules & broadcasts.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "LNRelease",
+    "url": "https://lnrelease.github.io/",
+    "description": "Highly-rated index for LNRelease, cataloged in EverythingMoe under the Schedules & Broadcasts section.",
     "category": "Tools & Trackers",
     "subCategory": "Schedules & Broadcasts",
     "color": "#3B82F6",
@@ -1776,6 +3339,198 @@
     "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
   },
   {
+    "name": "NovelUpdates",
+    "url": "https://www.novelupdates.com/",
+    "description": "Highly-rated index for NovelUpdates, cataloged in EverythingMoe under the Otaku Tracking & Lists section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Otaku Tracking & Lists",
+    "color": "#3B82F6",
+    "tags": [
+      "otaku"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: otaku. Ideal for users looking for reliable otaku tracking & lists.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "VocaDB",
+    "url": "https://vocadb.net/",
+    "description": "Highly-rated index for VocaDB, cataloged in EverythingMoe under the Otaku Tracking & Lists section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Otaku Tracking & Lists",
+    "color": "#3B82F6",
+    "tags": [
+      "otaku"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: otaku. Ideal for users looking for reliable otaku tracking & lists.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "SIMKL",
+    "url": "https://simkl.com/anime/",
+    "description": "Highly-rated index for SIMKL, cataloged in EverythingMoe under the Otaku Tracking & Lists section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Otaku Tracking & Lists",
+    "color": "#3B82F6",
+    "tags": [
+      "otaku"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: otaku. Ideal for users looking for reliable otaku tracking & lists.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "MyDramaList",
+    "url": "https://mydramalist.com/",
+    "description": "Highly-rated index for MyDramaList, cataloged in EverythingMoe under the Otaku Tracking & Lists section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Otaku Tracking & Lists",
+    "color": "#3B82F6",
+    "tags": [
+      "otaku"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: otaku. Ideal for users looking for reliable otaku tracking & lists.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "AnimePlanet",
+    "url": "https://www.anime-planet.com/",
+    "description": "Highly-rated index for AnimePlanet, cataloged in EverythingMoe under the Otaku Tracking & Lists section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Otaku Tracking & Lists",
+    "color": "#3B82F6",
+    "tags": [
+      "otaku"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: otaku. Ideal for users looking for reliable otaku tracking & lists.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Kenmei",
+    "url": "https://kenmei.co/",
+    "description": "Highly-rated index for Kenmei, cataloged in EverythingMoe under the Otaku Tracking & Lists section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Otaku Tracking & Lists",
+    "color": "#3B82F6",
+    "tags": [
+      "otaku"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: otaku. Ideal for users looking for reliable otaku tracking & lists.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "VGMdb",
+    "url": "https://vgmdb.net/",
+    "description": "Highly-rated index for VGMdb, cataloged in EverythingMoe under the Otaku Tracking & Lists section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Otaku Tracking & Lists",
+    "color": "#3B82F6",
+    "tags": [
+      "otaku"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: otaku. Ideal for users looking for reliable otaku tracking & lists.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Anison Charts",
+    "url": "https://anisonpreviews.com/",
+    "description": "Highly-rated index for Anison Charts, cataloged in EverythingMoe under the Otaku Tracking & Lists section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Otaku Tracking & Lists",
+    "color": "#3B82F6",
+    "tags": [
+      "otaku"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: otaku. Ideal for users looking for reliable otaku tracking & lists.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Kitsu",
+    "url": "https://kitsu.app/",
+    "description": "Highly-rated index for Kitsu, cataloged in EverythingMoe under the Otaku Tracking & Lists section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Otaku Tracking & Lists",
+    "color": "#3B82F6",
+    "tags": [
+      "otaku"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: otaku. Ideal for users looking for reliable otaku tracking & lists.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "MyWaifuList",
+    "url": "https://mywaifulist.moe/",
+    "description": "Highly-rated index for MyWaifuList, cataloged in EverythingMoe under the Otaku Tracking & Lists section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Otaku Tracking & Lists",
+    "color": "#3B82F6",
+    "tags": [
+      "otaku"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: otaku. Ideal for users looking for reliable otaku tracking & lists.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Mudae",
+    "url": "https://mudae.net/",
+    "description": "Highly-rated index for Mudae, cataloged in EverythingMoe under the Otaku Tracking & Lists section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Otaku Tracking & Lists",
+    "color": "#3B82F6",
+    "tags": [
+      "otaku"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: otaku. Ideal for users looking for reliable otaku tracking & lists.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "konsumr",
+    "url": "https://www.konsumr.com/",
+    "description": "Highly-rated index for konsumr, cataloged in EverythingMoe under the Otaku Tracking & Lists section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Otaku Tracking & Lists",
+    "color": "#3B82F6",
+    "tags": [
+      "otaku"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: otaku. Ideal for users looking for reliable otaku tracking & lists.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
     "name": "Chiaki",
     "url": "https://chiaki.site/",
     "description": "Highly-rated index for Chiaki, cataloged in EverythingMoe under the Otaku Tools section.",
@@ -1936,6 +3691,22 @@
     "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
   },
   {
+    "name": "Komga",
+    "url": "https://komga.org/",
+    "description": "Highly-rated index for Komga, cataloged in EverythingMoe under the Otaku Tools section.",
+    "category": "Tools & Trackers",
+    "subCategory": "Otaku Tools",
+    "color": "#3B82F6",
+    "tags": [
+      "otaku"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Tracking APIs & DB",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: otaku. Ideal for users looking for reliable otaku tools.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
     "name": "Japanese with Anime",
     "url": "https://www.japanesewithanime.com/2017/01/anime-words-japanese-meanings.html",
     "description": "Highly-rated index for Japanese with Anime, cataloged in EverythingMoe under the Learning Guides section.",
@@ -2080,6 +3851,22 @@
     "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
   },
   {
+    "name": "RecommendMeAnime",
+    "url": "https://recommendmeanime.com/",
+    "description": "Highly-rated index for RecommendMeAnime, cataloged in EverythingMoe under the Learning Guides section.",
+    "category": "Japan & Immersion",
+    "subCategory": "Learning Guides",
+    "color": "#F97316",
+    "tags": [
+      "learning"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "Web Index Link",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: learning. Ideal for users looking for reliable learning guides.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
     "name": "Safebooru",
     "url": "https://safebooru.org/",
     "description": "Highly-rated index for Safebooru, cataloged in EverythingMoe under the Imageboards & Art section.",
@@ -2147,6 +3934,70 @@
     "name": "ARTstreet",
     "url": "https://medibang.com/",
     "description": "Highly-rated index for ARTstreet, cataloged in EverythingMoe under the Imageboards & Art section.",
+    "category": "Music & Audio",
+    "subCategory": "Imageboards & Art",
+    "color": "#EC4899",
+    "tags": [
+      "imageboards"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "FLAC / MP3 Formats",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: imageboards. Ideal for users looking for reliable imageboards & art.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Gsbooru",
+    "url": "https://safe.gsbooru.org/",
+    "description": "Highly-rated index for Gsbooru, cataloged in EverythingMoe under the Imageboards & Art section.",
+    "category": "Music & Audio",
+    "subCategory": "Imageboards & Art",
+    "color": "#EC4899",
+    "tags": [
+      "imageboards"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "FLAC / MP3 Formats",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: imageboards. Ideal for users looking for reliable imageboards & art.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Settei Dreams",
+    "url": "https://setteidreams.net/",
+    "description": "Highly-rated index for Settei Dreams, cataloged in EverythingMoe under the Imageboards & Art section.",
+    "category": "Music & Audio",
+    "subCategory": "Imageboards & Art",
+    "color": "#EC4899",
+    "tags": [
+      "imageboards"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "FLAC / MP3 Formats",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: imageboards. Ideal for users looking for reliable imageboards & art.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "booruwf",
+    "url": "https://booru.cocomi.eu.org/",
+    "description": "Highly-rated index for booruwf, cataloged in EverythingMoe under the Imageboards & Art section.",
+    "category": "Music & Audio",
+    "subCategory": "Imageboards & Art",
+    "color": "#EC4899",
+    "tags": [
+      "imageboards"
+    ],
+    "adExperience": "Adblocker Recommended",
+    "signupRequired": "No Signup Required",
+    "videoQuality": "FLAC / MP3 Formats",
+    "detailedReview": "Community rated platform on EverythingMoe. It features tags: imageboards. Ideal for users looking for reliable imageboards & art.",
+    "tip": "Always use a strong content blocker like uBlock Origin when visiting this site."
+  },
+  {
+    "name": "Kemono",
+    "url": "https://kemono.cr/",
+    "description": "Highly-rated index for Kemono, cataloged in EverythingMoe under the Imageboards & Art section.",
     "category": "Music & Audio",
     "subCategory": "Imageboards & Art",
     "color": "#EC4899",

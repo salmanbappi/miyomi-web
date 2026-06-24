@@ -116,12 +116,6 @@ const parseHTML = (html) => {
         ? filterMatch[1].split(',').map(t => t.trim().toLowerCase()).filter(Boolean)
         : [];
       
-      if (rank > 12 && sectionId !== 'sec-anime' && sectionId !== 'sec-manga') {
-        continue;
-      }
-      if (rank > 18) {
-        continue;
-      }
       
       const uniqueTags = Array.from(new Set([...tags, meta.subCategory.split(' ')[0].toLowerCase()]));
       
