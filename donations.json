@@ -1,0 +1,685 @@
+{
+  "goal": {
+    "title": "Keep Miyomi Online - Infrastructure Fund",
+    "autoCalc": true,
+    "currency": "USD",
+    "description": "Helps cover hosting, domain, and infrastructure costs so Miyomi can stay online and continue growing.",
+    "targetAmount": 320,
+    "currentAmount": 256.93
+  },
+  "paymentMethods": [
+    {
+      "id": "paypal",
+      "url": "https://www.paypal.me/sarlotte01",
+      "type": "link",
+      "label": "PayPal",
+      "details": {
+        "email": "",
+        "instructions": "Send to our PayPal email address"
+      },
+      "enabled": true,
+      "iconHint": "paypal",
+      "description": "Send via PayPal (International)"
+    },
+    {
+      "id": "kofi",
+      "url": "https://ko-fi.com/miyomi",
+      "type": "link",
+      "label": "Ko-fi",
+      "details": {},
+      "enabled": true,
+      "iconHint": "kofi",
+      "description": "Buy us a coffee"
+    },
+    {
+      "id": "buymeacoffee",
+      "url": "#",
+      "type": "link",
+      "label": "Buy Me a Coffee",
+      "details": {},
+      "enabled": false,
+      "iconHint": "buymeacoffee",
+      "description": "Support via BMC"
+    },
+    {
+      "id": "github_sponsors",
+      "url": "#",
+      "type": "link",
+      "label": "GitHub Sponsors",
+      "details": {},
+      "enabled": false,
+      "iconHint": "github",
+      "description": "Sponsor us on GitHub"
+    },
+    {
+      "id": "stripe",
+      "url": "#",
+      "type": "link",
+      "label": "Stripe",
+      "details": {},
+      "enabled": false,
+      "iconHint": "stripe",
+      "description": "Credit/Debit Card (International)"
+    },
+    {
+      "id": "wise",
+      "url": "#",
+      "type": "details",
+      "label": "Wise (TransferWise)",
+      "details": {
+        "email": "",
+        "instructions": "Send via Wise to our email"
+      },
+      "enabled": false,
+      "iconHint": "wise",
+      "description": "Low-fee international transfer"
+    },
+    {
+      "id": "crypto_btc",
+      "url": "#",
+      "type": "details",
+      "label": "Bitcoin (BTC)",
+      "details": {
+        "address": "1NkdEnCcKtqgx29eAKF2ip7Gg6GggGZRd7",
+        "network": "Bitcoin (BTC)",
+        "instructions": "Send BTC to the address below"
+      },
+      "enabled": true,
+      "iconHint": "bitcoin",
+      "description": "Send BTC directly"
+    },
+    {
+      "id": "crypto_eth",
+      "url": "#",
+      "type": "details",
+      "label": "Ethereum (ETH)",
+      "details": {
+        "address": "",
+        "network": "Ethereum (ERC-20)",
+        "instructions": "Send ETH to the address below"
+      },
+      "enabled": false,
+      "iconHint": "ethereum",
+      "description": "Send ETH directly"
+    },
+    {
+      "id": "crypto_usdt",
+      "url": "#",
+      "type": "details",
+      "label": "USDT (Tether)",
+      "details": {
+        "address": "TYwuVY1uqckdzgwKd53vMTefeDR8myL9WL",
+        "network": "TRC-20",
+        "qrCodeUrl": "",
+        "instructions": "Send USDT to the address below. Specify network."
+      },
+      "enabled": true,
+      "iconHint": "usdt",
+      "description": "Send USDT (TRC20 ONLY)"
+    },
+    {
+      "id": "bkash",
+      "url": "#",
+      "type": "details",
+      "label": "bKash",
+      "details": {
+        "email": "farhanisteak84@gmail.com",
+        "number": "+880 1650-078236",
+        "accountName": "",
+        "instructions": "Send your donation to this bKash (personal) number. Please include your name and any reference message in the payment reference box."
+      },
+      "enabled": true,
+      "iconHint": "bkash",
+      "description": "Send via bKash (Bangladesh)"
+    },
+    {
+      "id": "nagad",
+      "url": "#",
+      "type": "details",
+      "label": "Nagad",
+      "details": {
+        "number": "",
+        "accountName": "",
+        "instructions": "Send Money to this Nagad number"
+      },
+      "enabled": false,
+      "iconHint": "nagad",
+      "description": "Send via Nagad (Bangladesh)"
+    },
+    {
+      "id": "rocket",
+      "url": "#",
+      "type": "details",
+      "label": "Rocket (DBBL)",
+      "details": {
+        "number": "",
+        "accountName": "",
+        "instructions": "Send Money to this Rocket number"
+      },
+      "enabled": false,
+      "iconHint": "rocket",
+      "description": "Send via Rocket (Bangladesh)"
+    },
+    {
+      "id": "upay",
+      "url": "#",
+      "type": "details",
+      "label": "Upay",
+      "details": {
+        "number": "",
+        "accountName": "",
+        "instructions": "Send Money to this Upay number"
+      },
+      "enabled": false,
+      "iconHint": "upay",
+      "description": "Send via Upay (Bangladesh)"
+    },
+    {
+      "id": "upi",
+      "url": "#",
+      "type": "details",
+      "label": "UPI",
+      "details": {
+        "address": "",
+        "instructions": "Pay using any UPI app to this UPI ID"
+      },
+      "enabled": false,
+      "iconHint": "upi",
+      "description": "Google Pay / PhonePe / Paytm (India)"
+    },
+    {
+      "id": "paytm",
+      "url": "#",
+      "type": "details",
+      "label": "Paytm",
+      "details": {
+        "number": "",
+        "instructions": "Send to this Paytm number"
+      },
+      "enabled": false,
+      "iconHint": "paytm",
+      "description": "Send via Paytm (India)"
+    },
+    {
+      "id": "razorpay",
+      "url": "#",
+      "type": "link",
+      "label": "Razorpay",
+      "details": {},
+      "enabled": false,
+      "iconHint": "razorpay",
+      "description": "Card/UPI/Netbanking (India)"
+    },
+    {
+      "id": "gcash",
+      "url": "#",
+      "type": "details",
+      "label": "GCash",
+      "details": {
+        "number": "09155456010",
+        "accountName": "Charlotte Regidor",
+        "instructions": "Send to this GCash number"
+      },
+      "enabled": true,
+      "iconHint": "gcash",
+      "description": "Send via GCash (Philippines)"
+    },
+    {
+      "id": "maya",
+      "url": "#",
+      "type": "details",
+      "label": "Maya (PayMaya)",
+      "details": {
+        "number": "",
+        "accountName": "",
+        "instructions": "Send to this Maya number"
+      },
+      "enabled": false,
+      "iconHint": "maya",
+      "description": "Send via Maya (Philippines)"
+    },
+    {
+      "id": "grabpay",
+      "url": "#",
+      "type": "details",
+      "label": "GrabPay",
+      "details": {
+        "number": "",
+        "instructions": "Send to this GrabPay account"
+      },
+      "enabled": false,
+      "iconHint": "grabpay",
+      "description": "Send via GrabPay (SEA)"
+    },
+    {
+      "id": "dana",
+      "url": "#",
+      "type": "details",
+      "label": "DANA",
+      "details": {
+        "number": "",
+        "instructions": "Send to this DANA number"
+      },
+      "enabled": false,
+      "iconHint": "dana",
+      "description": "Send via DANA (Indonesia)"
+    },
+    {
+      "id": "gopay",
+      "url": "#",
+      "type": "details",
+      "label": "GoPay",
+      "details": {
+        "number": "",
+        "instructions": "Send to this GoPay number"
+      },
+      "enabled": false,
+      "iconHint": "gopay",
+      "description": "Send via GoPay (Indonesia)"
+    },
+    {
+      "id": "bank_transfer",
+      "url": "#",
+      "type": "details",
+      "label": "Bank Transfer",
+      "details": {
+        "number": "",
+        "accountName": "",
+        "instructions": "Transfer to our bank account. Contact us for SWIFT/IBAN details."
+      },
+      "enabled": false,
+      "iconHint": "bank",
+      "description": "Direct bank wire transfer"
+    },
+    {
+      "id": "contact_team",
+      "url": "#",
+      "type": "details",
+      "label": "Contact Team Directly",
+      "details": {
+        "email": "miyomi.info@gmail.com",
+        "instructions": "Want to use a different payment method or contribute directly? Reach out to our team and we will work something out!"
+      },
+      "enabled": true,
+      "iconHint": "contact",
+      "description": "Reach out for custom payment options"
+    },
+    {
+      "id": "binance",
+      "url": "#",
+      "type": "details",
+      "label": "Binance",
+      "details": {
+        "address": "380507616",
+        "qrCodeUrl": "https://telemage.pages.dev/file/QWdBQ0FnVUFBeUVHQUFTdExOM0xBQU94YWduTlFJZnRGY0o0U0k3cUMxc28yUWY4OG9rQUFwZ1RheHR6cVZCVWdOd3JWOUxaS3hvQkFBTUNBQU40QUFNN0JB",
+        "accountName": "Hanime",
+        "instructions": "Send your donation using the Binance UID transfer option. Please include your name and any reference message in the transfer note/message section."
+      },
+      "enabled": true,
+      "iconHint": "Binance",
+      "description": "Send via Binance Pay."
+    }
+  ],
+  "transparencyItems": [
+    {
+      "label": "Supabase (Database & Edge Functions)",
+      "value": "~$25/month, ~300/year"
+    },
+    {
+      "label": "Domain & DNS",
+      "value": " ~$20/year"
+    },
+    {
+      "label": "CDN & Hosting",
+      "value": "Free (Cloudflare)"
+    }
+  ],
+  "display": {
+    "showDonationAmounts": true,
+    "transparencyLastUpdated": "May 2026"
+  },
+  "donators": [
+    {
+      "name": "Lynn toh",
+      "amount": 866,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Ivan echarte",
+      "amount": 312.92,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "grazchella Vicente",
+      "amount": 2807.94,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anthony Louis balladares",
+      "amount": 1181,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "DeAndres",
+      "amount": 295.29,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Heathberr",
+      "amount": 1476.43,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Carlos mog",
+      "amount": 855.86,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anna domi",
+      "amount": 1181.15,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Darius Ellis",
+      "amount": 590.57,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Jose isaias Duran ek",
+      "amount": 146,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Solomon chin",
+      "amount": 425,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "rolly Marquez",
+      "amount": 280,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Michael Williams",
+      "amount": 1999,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Eero kukko",
+      "amount": 706,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #1",
+      "amount": 250,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #2",
+      "amount": 50,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #3",
+      "amount": 61,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #4",
+      "amount": 150,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #5",
+      "amount": 200,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #6",
+      "amount": 50,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #7",
+      "amount": 200,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #8",
+      "amount": 164.34,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #9",
+      "amount": 10,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #10",
+      "amount": 130,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #11",
+      "amount": 100,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #12",
+      "amount": 150,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #13",
+      "amount": 65,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #14",
+      "amount": 200,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #15",
+      "amount": 50,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #16",
+      "amount": 200,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #17",
+      "amount": 5,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Ali alromaithi",
+      "amount": 540.07,
+      "currency": "PHP",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #262",
+      "amount": 50,
+      "currency": "BDT",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #286",
+      "amount": 50,
+      "currency": "BDT",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Mohtasim",
+      "amount": 100,
+      "currency": "BDT",
+      "message": "Thank you for your work Miyomi.",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #626",
+      "amount": 50,
+      "currency": "BDT",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #269",
+      "amount": 20,
+      "currency": "BDT",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    },
+    {
+      "name": "Anonymous #057",
+      "amount": 20,
+      "currency": "BDT",
+      "message": "",
+      "date": "2026-05-18",
+      "isPublic": true,
+      "showAmount": true
+    }
+  ]
+}
