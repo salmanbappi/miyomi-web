@@ -1,142 +1,92 @@
-import { Plus, Package, Star, Twitter, MessageSquare, Facebook } from 'lucide-react';
-import { Button } from '../components/Button';
-import React, { useState, useEffect } from 'react';
-import { useAppMeta } from '../hooks/useAppMeta';
-import { useFeedbackState } from '../hooks/useFeedbackState';
+import React from 'react';
+import { Compass, BookOpen, Globe, Magnet, Bookmark, HelpCircle } from 'lucide-react';
 import { motion } from 'motion/react';
 import { useSeasonalAsset } from '../hooks/useSeasonalAsset';
-import { dataService } from '../services/dataService';
-import type { ExtensionData, GuideCategoryData } from '../types/data';
-import { DiscordIcon } from '../components/DiscordIcon';
-import { TelegramIcon } from '../components/TelegramIcon';
 
 interface HomePageProps {
   onNavigate?: (path: string) => void;
 }
 
+interface DashboardItem {
+  icon: React.ReactNode;
+  title: string;
+  description: string;
+  path: string;
+  gradient: string;
+  tag: string;
+}
+
 export function HomePage({ onNavigate }: HomePageProps) {
-  const { apps: unifiedApps } = useAppMeta();
-  const { isFeedbackOpen, handleToggle, handleClose } = useFeedbackState();
-  const [extensionsCount, setExtensionsCount] = useState<number>(0);
-  const [guidesCount, setGuidesCount] = useState<number>(0);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      const [exts, guides] = await Promise.all([
-        dataService.getExtensions(),
-        dataService.getGuideCategories()
-      ]);
-      setExtensionsCount(exts.length);
-      const totalGuides = guides.reduce((total, category) => total + category.guides.length, 0);
-      setGuidesCount(totalGuides);
-    };
-    fetchData();
-  }, []);
-
-  const features = [
-    {
-      icon: <Plus className="w-10 h-10" />,
-      title: 'Quickstart',
-      description: 'Get started quickly with our comprehensive guides',
-      path: '/guides',
-      // Using avatar accent colors: Blush Pink to Badge Gold
-      gradient: 'from-[#F472B6] to-[#FBBF24]',
-    },
-    {
-      icon: <Package className="w-10 h-10" />,
-      title: 'Software',
-      description: 'Software for every Operating System',
-      path: '/software',
-      // Using avatar primary colors: Cyan (Hair) to Royal Blue (Uniform)
-      gradient: 'from-[#38BDF8] to-[#2563EB]',
-    },
-    {
-      icon: <Star className="w-10 h-10" />,
-      title: 'Extensions',
-      description: 'Cloudstream, Aniyomi & Dantotsu Extension Repos & Guides',
-      path: '/extensions',
-      // Using avatar deep accents: Indigo to Deep Violet
-      gradient: 'from-[#818CF8] to-[#7C3AED]',
-    },
-  ];
-
   const avatarImage = useSeasonalAsset('homeAvatar', '/polic.png');
 
-  const socialLinks = [
-    // { icon: <Twitter className="w-5 h-5" />, label: 'Twitter', link: 'https://x.com/iitachiyomi', color: '#333' },
-    { icon: <DiscordIcon className="w-5 h-5" />, label: 'Discord', link: 'https://discord.gg/hfYtH9hrRm', color: '#5865F2' },
-    { icon: <TelegramIcon className="w-5 h-5" />, label: 'Telegram', link: 'https://t.me/iitachiyomi', color: '#1877F2' },
-    // { icon: <Facebook className="w-5 h-5" />, label: 'Facebook', link: 'https://facebook.com/iitachiyomi', color: '#1877F2' },
+  const dashboardItems: DashboardItem[] = [
+    {
+      icon: <Globe className="w-6 h-6" />,
+      title: 'Websites Directory',
+      description: 'Curated list of platforms for anime streaming, manga reading, light novels, and J-Music.',
+      path: '/websites',
+      gradient: 'from-[#38BDF8] to-[#2563EB]',
+      tag: 'DIRECTORY'
+    },
+    {
+      icon: <BookOpen className="w-6 h-6" />,
+      title: 'Guides & FAQs',
+      description: 'Step-by-step tutorials, troubleshooting tips, and setup walk-throughs.',
+      path: '/guides',
+      gradient: 'from-[#A855F7] to-[#7C3AED]',
+      tag: 'TUTORIALS'
+    },
+    {
+      icon: <Magnet className="w-6 h-6" />,
+      title: 'Torrenting Guide',
+      description: 'P2P rules, qBittorrent client configuration, Nyaa usage, and tracker files.',
+      path: '/torrenting',
+      gradient: 'from-[#22C55E] to-[#15803D]',
+      tag: 'P2P SAFETY'
+    },
+    {
+      icon: <Bookmark className="w-6 h-6" />,
+      title: 'Otaku Glossary',
+      description: 'Definitions of animeCour blocks, scanlation terms, and high fidelity audio compression.',
+      path: '/glossary',
+      gradient: 'from-[#F43F5E] to-[#BE123C]',
+      tag: 'REFERENCE'
+    },
+    {
+      icon: <Compass className="w-6 h-6" />,
+      title: 'Japan & Immersion',
+      description: 'Language learning frameworks, Anki workflows, and translation dictionary software Yomitan.',
+      path: '/japan',
+      gradient: 'from-[#F97316] to-[#C2410C]',
+      tag: 'IMMERSION'
+    },
+    {
+      icon: <HelpCircle className="w-6 h-6" />,
+      title: 'FAQ / Help',
+      description: 'Frequently asked questions and answers to common troubleshooting issues.',
+      path: '/faq',
+      gradient: 'from-[#EC4899] to-[#D946EF]',
+      tag: 'SUPPORT'
+    }
   ];
-
-  const formatCount = (value: number) => {
-    if (value >= 1000) {
-      const formatted = value % 1000 === 0 ? (value / 1000).toString() : (value / 1000).toFixed(1).replace(/\.0$/, '');
-      return `${formatted}k+`;
-    }
-    return `${value}+`;
-  };
-
-  const socialGridRef = React.useRef<HTMLDivElement>(null);
-  const [useTwoColumns, setUseTwoColumns] = React.useState(false);
-
-  React.useEffect(() => {
-    const evaluateColumns = () => {
-      const container = socialGridRef.current;
-      if (!container) return;
-
-      const previousTemplate = container.style.gridTemplateColumns;
-      container.style.gridTemplateColumns = 'repeat(3, minmax(0, 1fr))';
-
-      const hasOverflow = Array.from(container.children).some((child) => {
-        if (!(child instanceof HTMLElement)) return false;
-        return child.scrollWidth > child.clientWidth + 1;
-      });
-
-      container.style.gridTemplateColumns = previousTemplate;
-      setUseTwoColumns((prev) => (prev !== hasOverflow ? hasOverflow : prev));
-    };
-
-    evaluateColumns();
-    window.addEventListener('resize', evaluateColumns);
-
-    let resizeObserver: ResizeObserver | null = null;
-    if (typeof ResizeObserver !== 'undefined') {
-      resizeObserver = new ResizeObserver(() => evaluateColumns());
-      if (socialGridRef.current) {
-        resizeObserver.observe(socialGridRef.current);
-      }
-    }
-
-    return () => {
-      window.removeEventListener('resize', evaluateColumns);
-      resizeObserver?.disconnect();
-    };
-  }, [socialLinks.length]);
 
   return (
     <div className="max-w-7xl mx-auto pt-10 relative">
-      {/* Decorative Background Elements - Matches Character Palette */}
+      {/* Decorative Background Elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none opacity-20 -z-10">
-        {/* Top Right: Gold Glow (Badge) */}
-        <div className="absolute top-20 right-10 w-64 h-64 bg-gradient-to-br from-[#FBBF24] to-transparent rounded-full blur-3xl"></div>
-        {/* Bottom Left: Cyan Glow (Hair) */}
-        <div className="absolute bottom-40 left-10 w-72 h-72 bg-gradient-to-br from-[#38BDF8] to-transparent rounded-full blur-3xl"></div>
-        {/* Center: Pink Glow (Blush) */}
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-br from-[#F472B6] to-transparent rounded-full blur-3xl"></div>
+        <div className="absolute top-20 right-10 w-64 h-64 bg-gradient-to-br from-[#FBBF24] to-transparent rounded-full blur-3xl" />
+        <div className="absolute bottom-40 left-10 w-72 h-72 bg-gradient-to-br from-[#38BDF8] to-transparent rounded-full blur-3xl" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-br from-[#F472B6] to-transparent rounded-full blur-3xl" />
       </div>
 
       {/* Hero Section */}
-      <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center pb-8 lg:pb-12 relative">
-        {/* Mobile Avatar (Above content on mobile) */}
+      <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center pb-12 relative">
+        {/* Mobile Avatar */}
         <div className="lg:hidden flex items-center justify-center mb-4">
           <div className="relative w-48 h-48">
             <div className="animate-float">
               <div className="relative">
-                {/* Glowing background - using brand colors */}
-                <div className="absolute inset-0 bg-gradient-to-br from-[var(--chart-3)] via-[var(--chart-2)] to-[var(--chart-1)] rounded-full blur-2xl opacity-60 scale-110"></div>
-
-                {/* Avatar */}
+                <div className="absolute inset-0 bg-gradient-to-br from-[var(--chart-3)] via-[var(--chart-2)] to-[var(--chart-1)] rounded-full blur-2xl opacity-65 scale-110" />
                 <img
                   src={avatarImage}
                   alt="Miyomi Mascot"
@@ -150,56 +100,23 @@ export function HomePage({ onNavigate }: HomePageProps) {
         </div>
 
         {/* Left Content */}
-        <div className="relative z-10 text-center lg:text-left">
-          {/* H1 Title */}
-          <div className="flex items-center justify-center lg:justify-start gap-3 mb-4">
+        <div className="relative z-10 text-center lg:text-left space-y-4">
+          <div className="flex items-center justify-center lg:justify-start gap-3">
             <h1
-              className="text-[var(--brand)] font-['Poppins',sans-serif] relative inline-block"
+              className="text-[var(--text-primary)] font-['Poppins',sans-serif] relative inline-block"
               style={{ fontSize: 'clamp(32px, 8vw, 56px)', lineHeight: '1.1', fontWeight: 800, letterSpacing: '-0.02em' }}
             >
-              Miyomi
-              {/* Badge-color decorative element */}
-              <div className="absolute -top-4 -right-8 w-16 h-16 bg-gradient-to-br from-[var(--chart-4)] to-[var(--chart-3)] rounded-2xl rotate-12 blur-xl opacity-40"></div>
+              My Miyomi
+              <span className="text-[var(--brand)]">.</span>
             </h1>
           </div>
 
           <p
-            className="text-[var(--text-primary)] font-['Inter',sans-serif] mb-8 leading-relaxed"
+            className="text-[var(--text-secondary)] font-['Inter',sans-serif] leading-relaxed max-w-lg"
             style={{ fontSize: 'clamp(16px, 2vw, 18px)', lineHeight: '1.6' }}
           >
-            Your one-stop hub for <span className="text-[var(--brand)]" style={{ fontWeight: 600 }}>links, apps, extension repos</span> and more!
+            My personal dashboard containing directories, guides, reference definitions, and immersion resources. Offline-first and ad-free.
           </p>
-
-          {/* CTA Button */}
-          <div className="flex justify-center lg:justify-start mb-4">
-            <Button variant="primary" onClick={() => onNavigate?.('/software')}>
-              <span className="flex items-center gap-2">
-                Explore Software
-                <span className="transition-transform group-hover:translate-x-1">&rarr;</span>
-              </span>
-            </Button>
-          </div>
-
-          {/* Social Buttons - Responsive grid */}
-          <div
-            ref={socialGridRef}
-            className="grid gap-2 sm:gap-3 mb-8"
-            style={{ gridTemplateColumns: useTwoColumns ? 'repeat(2, minmax(0, 1fr))' : 'repeat(3, minmax(0, 1fr))' }}
-          >
-            {socialLinks.map((social, index) => (
-              <button
-                key={index}
-                onClick={() => window.open(social.link, '_blank')}
-                className="w-full px-3 py-2.5 sm:px-4 bg-[var(--bg-surface)] hover:bg-[var(--chip-bg)] border border-[var(--divider)] text-[var(--text-primary)] rounded-xl transition-all font-['Inter',sans-serif] flex items-center gap-2 shadow-sm hover:shadow-md group text-xs sm:text-sm text-left"
-                style={{ fontWeight: 500 }}
-              >
-                <div className="mt-0.5 transition-transform group-hover:scale-110 text-[var(--text-primary)] flex-shrink-0">
-                  {social.icon}
-                </div>
-                <span className="flex-1 min-w-0 leading-tight truncate">{social.label}</span>
-              </button>
-            ))}
-          </div>
         </div>
 
         {/* Desktop Avatar */}
@@ -207,91 +124,62 @@ export function HomePage({ onNavigate }: HomePageProps) {
           <div className="relative w-full max-w-lg">
             <div className="animate-float">
               <div className="relative">
-                {/* Glowing background shadow - Character Palette */}
-                <div className="absolute inset-0 bg-gradient-to-br from-[var(--chart-3)] via-[var(--chart-2)] to-[var(--chart-1)] rounded-full blur-3xl opacity-50 scale-110"></div>
-
-                {/* Avatar Image */}
+                <div className="absolute inset-0 bg-gradient-to-br from-[var(--chart-3)] via-[var(--chart-2)] to-[var(--chart-1)] rounded-full blur-3xl opacity-50 scale-110" />
                 <img
                   src={avatarImage}
                   alt="Miyomi Mascot"
-                  height={280}
-                  width={280}
-                  className="relative z-10 object-contain drop-shadow-2xl"
+                  width={240}
+                  className="relative z-10 object-contain drop-shadow-2xl mx-auto"
                 />
               </div>
             </div>
-
-            {/* Decorative elements around avatar */}
-            <div className="absolute -top-6 -left-6 w-24 h-24 bg-gradient-to-br from-[var(--chart-4)] to-transparent rounded-full blur-2xl animate-pulse"></div>
-            <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-gradient-to-br from-[var(--chart-2)] to-transparent rounded-full blur-2xl animate-pulse delay-300"></div>
           </div>
         </div>
       </div>
 
-      {/* Feature Cards with Counters */}
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 lg:gap-6 mb-16 relative z-10">
-        {features.map((feature, index) => {
-          const featureCount = feature.path === '/guides'
-            ? formatCount(guidesCount)
-            : feature.path === '/software'
-              ? formatCount(unifiedApps.length)
-              : formatCount(extensionsCount);
+      {/* Grid Dashboard Items */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16 relative z-10">
+        {dashboardItems.map((item, index) => (
+          <motion.button
+            key={index}
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: index * 0.05, duration: 0.3 }}
+            whileHover={{ y: -4, scale: 1.01 }}
+            whileTap={{ scale: 0.99 }}
+            onClick={() => onNavigate?.(item.path)}
+            className="group relative overflow-hidden p-6 bg-[var(--bg-surface)] border border-[var(--divider)] rounded-3xl hover:shadow-lg transition-all text-left flex flex-col justify-between"
+            style={{ boxShadow: '0 6px 20px 0 rgba(0,0,0,0.03)' }}
+          >
+            {/* Hover Accent Line */}
+            <div className={`absolute top-0 left-0 right-0 h-1 bg-gradient-to-r ${item.gradient} opacity-0 group-hover:opacity-100 transition-opacity`} />
 
-          return (
-            <motion.button
-              key={index}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.1, duration: 0.4 }}
-              whileHover={{ y: -4, scale: 1.02 }}
-              whileTap={{ scale: 0.98 }}
-              onClick={() => onNavigate?.(feature.path)}
-              className="group feature-card relative overflow-hidden p-4 sm:p-6 bg-[var(--bg-surface)] border border-[var(--divider)] rounded-2xl hover:shadow-lg transition-all text-left"
-              style={{ boxShadow: '0 6px 20px 0 rgba(0,0,0,0.08)' }}
-            >
-              {/* Counter watermark in background */}
-              <div className="absolute right-2 top-2 pointer-events-none">
-                <div
-                  className="font-['Poppins',sans-serif]"
-                  style={{
-                    fontSize: 'clamp(50px, 6vw, 66px)',
-                    fontWeight: 900,
-                    lineHeight: '1',
-                    color: 'var(--text-secondary)',
-                    opacity: 0.03,
-                    transition: 'opacity 0.3s ease-in-out',
-                  }}
-                >
-                  {featureCount}
+            <div>
+              {/* Header Info */}
+              <div className="flex items-center justify-between gap-3 mb-4">
+                <div className={`w-11 h-11 rounded-2xl flex items-center justify-center bg-gradient-to-br ${item.gradient} text-white`}>
+                  {item.icon}
                 </div>
+                <span className="text-[10px] font-bold font-['Inter',sans-serif] text-[var(--text-secondary)] opacity-60 uppercase tracking-widest">
+                  {item.tag}
+                </span>
               </div>
 
-              {/* Gradient background on hover */}
-              <div className={`absolute inset-0 bg-gradient-to-br ${feature.gradient} opacity-0 group-hover:opacity-10 transition-opacity duration-300`}></div>
+              {/* Title & Description */}
+              <h3 className="font-['Poppins',sans-serif] text-[var(--text-primary)] font-bold text-lg mb-2 group-hover:text-[var(--brand)] transition-colors">
+                {item.title}
+              </h3>
+              <p className="text-[var(--text-secondary)] font-['Inter',sans-serif] text-sm leading-relaxed mb-4">
+                {item.description}
+              </p>
+            </div>
 
-              <div className="relative z-10 flex items-center gap-4">
-                <div className={`inline-flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-gradient-to-br ${feature.gradient} dark:text-white text-[var(--text-primary)] flex-shrink-0 group-hover:scale-105 transition-transform duration-300`}>
-                  {React.cloneElement(feature.icon, { className: 'w-5 h-5 sm:w-6 sm:h-6' })}
-                </div>
-                <div className="flex-1 min-w-0">
-                  <h3
-                    className="text-[var(--text-primary)] font-['Poppins',sans-serif] mb-0.5 truncate"
-                    style={{ fontSize: '16px', fontWeight: 700 }}
-                  >
-                    {feature.title}
-                  </h3>
-                  <p className="text-[var(--text-secondary)] font-['Inter',sans-serif] text-xs sm:text-sm leading-snug line-clamp-2 sm:line-clamp-3">
-                    {feature.description}
-                  </p>
-                </div>
-                {/* Arrow indicator */}
-                <div className="text-[var(--brand)] group-hover:translate-x-1 transition-transform duration-300 flex-shrink-0">
-                  &rarr;
-                </div>
-              </div>
-            </motion.button>
-          );
-        })}
+            {/* Link indicator */}
+            <div className="text-[var(--brand)] font-semibold text-xs font-['Inter',sans-serif] flex items-center gap-1 group-hover:translate-x-1 transition-transform self-end">
+              Go to Section &rarr;
+            </div>
+          </motion.button>
+        ))}
       </div>
     </div>
   );

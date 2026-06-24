@@ -63,14 +63,7 @@ const openSourceCredits: CreditItem[] = [
   },
 ];
 
-const communityLinks: LinkItem[] = [
-  // { label: 'Facebook', href: 'https://www.facebook.com/iitachiyomi' },
-  { label: 'YouTube', href: 'https://www.youtube.com/@iitachiyomi' },
-  // { label: 'Instagram', href: 'https://www.instagram.com/iitachiyomi/' },
-  { label: 'Discord', href: 'https://discord.gg/hfYtH9hrRm' },
-  { label: 'Telegram', href: 'https://t.me/iitachiyomi' },
-  { label: 'GitHub', href: 'https://github.com/tas33n/miyomi' },
-];
+
 
 function Chip({ children }: { children: ReactNode }) {
   return (
@@ -294,40 +287,7 @@ export function AboutPage() {
         </Card>
       </section>
 
-      {/* COMMUNITY */}
-      <section className="mb-12">
-        <div className="mb-4 flex items-center gap-2">
-          <Globe2 className="w-5 h-5 text-[var(--brand)]" />
-          <h2 className="text-[var(--text-primary)] font-['Poppins',sans-serif] text-2xl font-semibold">
-            Find us
-          </h2>
-        </div>
-        <p className="text-[var(--text-secondary)] text-[15px] leading-7 mb-4">
-          Share tips, post releases, and help other fans out.
-        </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {communityLinks.map((link) => (
-            <a
-              key={link.href}
-              href={link.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-5 bg-[var(--bg-surface)] border border-[var(--divider)] rounded-2xl hover:border-[var(--brand)] hover:shadow-lg transition-all flex items-center justify-between gap-4"
-              aria-label={link.label}
-            >
-              <div>
-                <h3 className="font-['Poppins',sans-serif] text-[var(--text-primary)] mb-1 font-semibold">
-                  {link.label}
-                </h3>
-                <p className="text-[var(--text-secondary)] text-xs">
-                  {link.href.replace(/^https?:\/\//, '')}
-                </p>
-              </div>
-              <ArrowUpRight className="w-5 h-5 text-[var(--brand)] flex-shrink-0" />
-            </a>
-          ))}
-        </div>
-      </section>
+
 
       {/* CONTACT */}
       <section className="mb-12">

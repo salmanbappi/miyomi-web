@@ -11,7 +11,7 @@ export function Footer() {
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-[var(--text-secondary)] font-['Inter',sans-serif] text-sm">
           <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-2 flex-wrap">
             <div className="flex items-center gap-2">
-              <span>The Miyomi Team</span>
+              <span>Salman's Portal</span>
               <span className="hidden sm:inline">|</span>
               {commit?.url ? (
                 <a
@@ -28,23 +28,6 @@ export function Footer() {
                   {loading ? '•••••••' : commit?.sha || 'a4aded9'}
                 </span>
               )}
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="hidden sm:inline">|</span>
-              <a
-                href="/about#disclaimer"
-                className="hover:text-[var(--brand)] transition-colors underline"
-              >
-                Disclaimer
-              </a>
-              <span>|</span>
-              <a
-                href="/donate"
-                className="inline-flex items-center gap-1 hover:text-pink-400 transition-colors group"
-              >
-                <Heart className="w-3.5 h-3.5 text-pink-400 group-hover:fill-pink-400 transition-all" />
-                Support Us
-              </a>
             </div>
           </div>
 

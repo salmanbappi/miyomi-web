@@ -39,6 +39,10 @@ function toAppData(row: Tables<'apps'>): AppData {
 function toExtensionData(row: Tables<'extensions'>): ExtensionData {
   const meta = (row.metadata || {}) as Record<string, any>;
   const r = row as any;
+  const compatible = [...(row.compatible_with || [])] as string[];
+  if (row.slug === 'sb-aniyomi-repo' && !compatible.includes('AniZen')) {
+    compatible.push('AniZen');
+  }
   return {
     id: row.id,
     slug: row.slug || undefined,
@@ -51,7 +55,7 @@ function toExtensionData(row: Tables<'extensions'>): ExtensionData {
     accentColor: row.icon_color || undefined,
     autoUrl: meta.autoUrl || '',
     manualUrl: meta.manualUrl || '',
-    supportedApps: (row.compatible_with || []) as any,
+    supportedApps: compatible,
     lastUpdated: row.updated_at,
     overview: row.description || undefined,
     github: row.repo_url || undefined,

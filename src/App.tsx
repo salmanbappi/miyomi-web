@@ -7,18 +7,16 @@ import { Footer } from "./components/Footer";
 import { NoticeBanner } from "./components/NoticeBanner";
 import { QuotaRibbon } from "./components/QuotaRibbon";
 import { HomePage } from "./pages/HomePage";
-import { SoftwarePage } from "./pages/SoftwarePage";
-import { ExtensionsPage } from "./pages/ExtensionsPage";
 import { GuidesPage } from "./pages/GuidesPage";
 import { GuideDetailPage } from "./pages/GuideDetailPage";
 import { FAQPage } from "./pages/FAQPage";
 import { AboutPage } from "./pages/AboutPage";
-import { AppDetailPage } from "./pages/AppDetailPage";
-import { ExtensionDetailPage } from "./pages/ExtensionDetailPage";
 import { NotFoundPage } from "./pages/NotFoundPage";
 import { SearchPage } from "./pages/SearchPage";
-import { DonatePage } from "./pages/DonatePage";
-import { SubmitPage } from "./pages/SubmitPage";
+import { WebsitesPage } from "./pages/WebsitesPage";
+import { TorrentingPage } from "./pages/TorrentingPage";
+import { GlossaryPage } from "./pages/GlossaryPage";
+import { JapanPage } from "./pages/JapanPage";
 import { ChristmasSnow } from './components/ChristmasSnow';
 import { AdminLoginPage } from './pages/admin/AdminLoginPage';
 import { UnauthorizedPage } from './pages/UnauthorizedPage';
@@ -51,35 +49,7 @@ import {
   useLocation,
 } from "react-router-dom";
 
-function AppDetailPageWrapper({
-  onNavigate,
-}: {
-  onNavigate: (path: string) => void;
-}) {
-  const { appId } = useParams<{ appId: string }>();
-  return (
-    <AppDetailPage
-      key={appId}
-      appId={appId || ""}
-      onNavigate={onNavigate}
-    />
-  );
-}
 
-function ExtensionDetailPageWrapper({
-  onNavigate,
-}: {
-  onNavigate: (path: string) => void;
-}) {
-  const { slug } = useParams<{ slug: string }>();
-  return (
-    <ExtensionDetailPage
-      key={slug}
-      extensionId={slug || ""}
-      onNavigate={onNavigate}
-    />
-  );
-}
 
 function GuideDetailPageWrapper({
   onNavigate,
@@ -157,40 +127,14 @@ function AppContent() {
 
       {/* Main Content */}
       <main className="flex-1 px-4 sm:px-8 lg:px-[120px] pt-24 pb-12">
-        <NoticeBanner />
-        <QuotaRibbon />
         <Routes>
           <Route
             path="/"
             element={<HomePage onNavigate={handleNavigate} />}
           />
           <Route
-            path="/software"
-            element={
-              <SoftwarePage onNavigate={handleNavigate} />
-            }
-          />
-          <Route
-            path="/software/:appId"
-            element={
-              <AppDetailPageWrapper
-                onNavigate={handleNavigate}
-              />
-            }
-          />
-          <Route
-            path="/extensions"
-            element={
-              <ExtensionsPage onNavigate={handleNavigate} />
-            }
-          />
-          <Route
-            path="/extensions/:slug"
-            element={
-              <ExtensionDetailPageWrapper
-                onNavigate={handleNavigate}
-              />
-            }
+            path="/websites"
+            element={<WebsitesPage onNavigate={handleNavigate} />}
           />
           <Route
             path="/guides"
@@ -205,13 +149,23 @@ function AppContent() {
             }
           />
           <Route
+            path="/torrenting"
+            element={<TorrentingPage />}
+          />
+          <Route
+            path="/glossary"
+            element={<GlossaryPage />}
+          />
+          <Route
+            path="/japan"
+            element={<JapanPage />}
+          />
+          <Route
             path="/search"
             element={<SearchPage onNavigate={handleNavigate} />}
           />
           <Route path="/faq" element={<FAQPage />} />
           <Route path="/about" element={<AboutPage />} />
-          <Route path="/contribute" element={<SubmitPage />} />
-          <Route path="/donate" element={<DonatePage />} />
 
           {/* Fallback for unknown routes */}
           <Route path="/unauthorized" element={<UnauthorizedPage />} />
